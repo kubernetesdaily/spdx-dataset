@@ -1,0 +1,5572 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "softinstigate/restheart@sha256:d3a587999af20795b38ce9e75aa805357c97b512107f256336c030418bf05afb",
+  "documentNamespace": "http://trivy.dev/container_image/softinstigate/restheart@sha256:d3a587999af20795b38ce9e75aa805357c97b512107f256336c030418bf05afb-7a346a1f-db4f-41b0-ba58-e0e710a17bf7",
+  "creationInfo": {
+    "creators": [
+      "Organization: aquasecurity",
+      "Tool: trivy-0.70.0"
+    ],
+    "created": "2026-05-03T16:20:36Z"
+  },
+  "packages": [
+    {
+      "name": "softinstigate/restheart@sha256:d3a587999af20795b38ce9e75aa805357c97b512107f256336c030418bf05afb",
+      "SPDXID": "SPDXRef-ContainerImage-29a3e3cdbe6dd994",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:oci/restheart@sha256:d3a587999af20795b38ce9e75aa805357c97b512107f256336c030418bf05afb?arch=amd64\u0026repository_url=index.docker.io%2Fsoftinstigate%2Frestheart"
+        }
+      ],
+      "primaryPackagePurpose": "CONTAINER",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "DiffID: sha256:114dde0fefebbca13165d0da9c500a66190e497a82a53dcaabc3172d630be1e9"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "DiffID: sha256:1db64d30f1a7098bdeddcb239301965b961e46f092f816ef39213c1be2dba668"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "DiffID: sha256:2d501ba0145c049ce97d1d3481554fda85004bbcf66761deebf833dbfb8f5af5"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "DiffID: sha256:33b37ab0b0901175c2699d81c10b0c887f0dff944de74763cca00c155904d6fb"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "DiffID: sha256:3400837fe4201c8d2560e25fa73d2e3055ca3960aec148ed04ba35224df88353"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "DiffID: sha256:4840c7c54023c867f19564429c89ddae4e9589c83dce82492183a7e9f7dab1fa"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "DiffID: sha256:4cde6b0bb6f50a5f255eef7b2a42162c661cf776b803225dcac9a659e396bb6b"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "DiffID: sha256:4d049f83d9cf21d1f5cc0e11deaf36df02790d0e60c1a3829538fb4b61685368"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "DiffID: sha256:51ad86252c685cc9d72891e041d4409dc895ab5b2ebec2bb986044568d77bd98"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "DiffID: sha256:6342cb2c5ef9fd2e428806b811ca54f5e6e45a19c0be44006cf53094af17809d"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "DiffID: sha256:6e7fbcf090d09b73a4aa85f9dce690d0ace73877c150b7c56955487b6e7a822a"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "DiffID: sha256:6f1cdceb6a3146f0ccb986521156bef8a422cdbb0863396f7f751f575ba308f4"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "DiffID: sha256:8fa10c0194df9b7c054c90dbe482585f768a54428fc90a5b78a0066a123b1bba"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "DiffID: sha256:a33ba213ad26a605d904a741f67154f3904c74a43182c872c35f36b10fa005e0"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "DiffID: sha256:ac0bc7ef7def4a9eabdb6eb6d0b2f4d50b7cbe098aad2326c4dcb79298717fa0"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "DiffID: sha256:ad51d0769d16ba578106a177987dfe3d2e02c1668c852b795b2f6b024068242a"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "DiffID: sha256:af5aa97ebe6ce1604747ec1e21af7136ded391bcabe4acef882e718a87c86bcc"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "DiffID: sha256:bd29502adf199ad9c03afba9bc79df572a26ec60a2a6ffdda4883a5b7a1632fe"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "DiffID: sha256:bd3cdfae1d3fdd83a2231d608969b38b82349777c2fff9a7c12d54f8ac5c9b38"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "DiffID: sha256:c093c8b4f1d4af017f2828fa44f319c1ab64091f6f824271f65749b3339f155d"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "DiffID: sha256:e0df1d9f41333e3f09380ed92d194ebef43359d1fdda44c3b4564e96fa6799c3"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "DiffID: sha256:e26115de32748077b26f66725613ab99cbc0a633bba4f958a377148583b945f2"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "DiffID: sha256:fe8befa6e1b5751f8f33a8c0ed71b13a5862ff53380d0eab8a34808b3a340881"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "ImageID: sha256:2eea5acda5338479980274da7872611cd2932e7e96e6923f48e4eace31215bb1"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "Labels:description: Distroless GraalVM image with no shell - maximum security"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "Labels:maintainer: SoftInstigate \u003cinfo@softinstigate.com\u003e"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "Labels:org.opencontainers.image.authors: SoftInstigate \u003cinfo@softinstigate.com\u003e"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "Labels:org.opencontainers.image.description: RESTHeart is The Backend Framework with MongoDB Data APIs. "
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "Labels:org.opencontainers.image.documentation: https://restheart.org/docs"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "Labels:org.opencontainers.image.licenses: AGPL-3.0, Apache-2.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "Labels:org.opencontainers.image.source: https://github.com/SoftInstigate/restheart"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "Labels:org.opencontainers.image.title: RESTHeart"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "Labels:org.opencontainers.image.url: https://restheart.org"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "Labels:org.opencontainers.image.vendor: SoftInstigate"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "Reference: softinstigate/restheart@sha256:d3a587999af20795b38ce9e75aa805357c97b512107f256336c030418bf05afb"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "RepoDigest: softinstigate/restheart@sha256:d3a587999af20795b38ce9e75aa805357c97b512107f256336c030418bf05afb"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "SchemaVersion: 2"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "Size: 382017024"
+        }
+      ]
+    },
+    {
+      "name": "base-files",
+      "SPDXID": "SPDXRef-Package-ee5e72c0fcdf493a",
+      "versionInfo": "12.4+deb12u13",
+      "supplier": "Organization: Santiago Vila \u003csanvila@debian.org\u003e",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "built package from: base-files 12.4+deb12u13",
+      "licenseConcluded": "GPL-2.0-or-later",
+      "licenseDeclared": "GPL-2.0-or-later",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:deb/debian/base-files@12.4%2Bdeb12u13?arch=amd64\u0026distro=debian-12.13"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:a33ba213ad26a605d904a741f67154f3904c74a43182c872c35f36b10fa005e0"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:526604835308e0d61f64a3d3e2d614308fef4ed655f0111a4566627296c0195c"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: base-files@12.4+deb12u13"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: debian"
+        }
+      ]
+    },
+    {
+      "name": "ch.qos.logback:logback-classic",
+      "SPDXID": "SPDXRef-Package-69dd06223ba26704",
+      "versionInfo": "1.5.32",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "508c36f265cfcc8fdf72dd18aef47a580a1d65f6"
+      },
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/ch.qos.logback/logback-classic@1.5.32"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:fe8befa6e1b5751f8f33a8c0ed71b13a5862ff53380d0eab8a34808b3a340881"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:df016c794c3bfd35898add552d32b98834d2b7fdaecab998ed4502109636a38c"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: jar"
+        }
+      ]
+    },
+    {
+      "name": "ch.qos.logback:logback-core",
+      "SPDXID": "SPDXRef-Package-c6152c43abe0991f",
+      "versionInfo": "1.5.32",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "055ed8904c49cdc68aaa8b2b7f8e1bc195ae03e9"
+      },
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/ch.qos.logback/logback-core@1.5.32"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:fe8befa6e1b5751f8f33a8c0ed71b13a5862ff53380d0eab8a34808b3a340881"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:df016c794c3bfd35898add552d32b98834d2b7fdaecab998ed4502109636a38c"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: jar"
+        }
+      ]
+    },
+    {
+      "name": "com.auth0:java-jwt",
+      "SPDXID": "SPDXRef-Package-969991adb376ee40",
+      "versionInfo": "4.5.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "3d21a4ac217d977f1dc8a0822f8e33762895c894"
+      },
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.auth0/java-jwt@4.5.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:1db64d30f1a7098bdeddcb239301965b961e46f092f816ef39213c1be2dba668"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:66bee5465b642709701c2ac4569a044d177e834948a26f8749e8eb6b2571a87d"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: jar"
+        }
+      ]
+    },
+    {
+      "name": "com.damnhandy:handy-uri-templates",
+      "SPDXID": "SPDXRef-Package-b08e55ad80cfdfe8",
+      "versionInfo": "2.1.8",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "a44baddd5cc2349086aa183485e498e5dbd4735e"
+      },
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.damnhandy/handy-uri-templates@2.1.8"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:1db64d30f1a7098bdeddcb239301965b961e46f092f816ef39213c1be2dba668"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:66bee5465b642709701c2ac4569a044d177e834948a26f8749e8eb6b2571a87d"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: jar"
+        }
+      ]
+    },
+    {
+      "name": "com.fasterxml.jackson.core:jackson-annotations",
+      "SPDXID": "SPDXRef-Package-e60934f08e57e374",
+      "versionInfo": "2.21",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "c5f07714c2343d188b36d482fc90351103f67ed5"
+      },
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.21"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:1db64d30f1a7098bdeddcb239301965b961e46f092f816ef39213c1be2dba668"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:66bee5465b642709701c2ac4569a044d177e834948a26f8749e8eb6b2571a87d"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: jar"
+        }
+      ]
+    },
+    {
+      "name": "com.fasterxml.jackson.core:jackson-core",
+      "SPDXID": "SPDXRef-Package-181225fb1bca2140",
+      "versionInfo": "2.21.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "377966de9e2675462250b3a768e5002d4608d819"
+      },
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.21.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:1db64d30f1a7098bdeddcb239301965b961e46f092f816ef39213c1be2dba668"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:66bee5465b642709701c2ac4569a044d177e834948a26f8749e8eb6b2571a87d"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: jar"
+        }
+      ]
+    },
+    {
+      "name": "com.fasterxml.jackson.core:jackson-databind",
+      "SPDXID": "SPDXRef-Package-1936e07626b8ade7",
+      "versionInfo": "2.21.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "29d357adee548cb061976709c8a47d787cfa6af7"
+      },
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.21.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:1db64d30f1a7098bdeddcb239301965b961e46f092f816ef39213c1be2dba668"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:66bee5465b642709701c2ac4569a044d177e834948a26f8749e8eb6b2571a87d"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: jar"
+        }
+      ]
+    },
+    {
+      "name": "com.github.ben-manes.caffeine:caffeine",
+      "SPDXID": "SPDXRef-Package-a265535b7e0adf96",
+      "versionInfo": "3.2.3",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "802619e2681294df756a0c63bb8a45a0c0223621"
+      },
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.github.ben-manes.caffeine/caffeine@3.2.3"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:fe8befa6e1b5751f8f33a8c0ed71b13a5862ff53380d0eab8a34808b3a340881"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:df016c794c3bfd35898add552d32b98834d2b7fdaecab998ed4502109636a38c"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: jar"
+        }
+      ]
+    },
+    {
+      "name": "com.google.code.gson:gson",
+      "SPDXID": "SPDXRef-Package-7dc0a4f5e2e2bb",
+      "versionInfo": "2.13.2",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "bd6f923fa81bc7e438996c383c236f8f98b430eb"
+      },
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.google.code.gson/gson@2.13.2"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:fe8befa6e1b5751f8f33a8c0ed71b13a5862ff53380d0eab8a34808b3a340881"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:df016c794c3bfd35898add552d32b98834d2b7fdaecab998ed4502109636a38c"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: jar"
+        }
+      ]
+    },
+    {
+      "name": "com.google.errorprone:error_prone_annotations",
+      "SPDXID": "SPDXRef-Package-722eee587c761309",
+      "versionInfo": "2.41.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "1944d680d4e8a1c1eb40bb13ec3d2bf9a9503bce"
+      },
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.google.errorprone/error_prone_annotations@2.41.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:fe8befa6e1b5751f8f33a8c0ed71b13a5862ff53380d0eab8a34808b3a340881"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:df016c794c3bfd35898add552d32b98834d2b7fdaecab998ed4502109636a38c"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: jar"
+        }
+      ]
+    },
+    {
+      "name": "com.google.guava:failureaccess",
+      "SPDXID": "SPDXRef-Package-bb9cd120d54c1fc",
+      "versionInfo": "1.0.3",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "3379f48a8e38f70c538964a55a118196834f4bcf"
+      },
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.google.guava/failureaccess@1.0.3"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:fe8befa6e1b5751f8f33a8c0ed71b13a5862ff53380d0eab8a34808b3a340881"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:df016c794c3bfd35898add552d32b98834d2b7fdaecab998ed4502109636a38c"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: jar"
+        }
+      ]
+    },
+    {
+      "name": "com.google.guava:guava",
+      "SPDXID": "SPDXRef-Package-5f7745c5d9601a09",
+      "versionInfo": "33.5.0-jre",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "fcaa65366b0a5b0c7b470a78c0f9d8d6687ebf9f"
+      },
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.google.guava/guava@33.5.0-jre"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:fe8befa6e1b5751f8f33a8c0ed71b13a5862ff53380d0eab8a34808b3a340881"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:df016c794c3bfd35898add552d32b98834d2b7fdaecab998ed4502109636a38c"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: jar"
+        }
+      ]
+    },
+    {
+      "name": "com.google.guava:guava",
+      "SPDXID": "SPDXRef-Package-78d79c81846cfeec",
+      "versionInfo": "32.1.2-jre",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "effa3742dcb3b460a8f7a5c9698f2f85af453190"
+      },
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.google.guava/guava@32.1.2-jre"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:1db64d30f1a7098bdeddcb239301965b961e46f092f816ef39213c1be2dba668"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:66bee5465b642709701c2ac4569a044d177e834948a26f8749e8eb6b2571a87d"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: jar"
+        }
+      ]
+    },
+    {
+      "name": "com.google.guava:listenablefuture",
+      "SPDXID": "SPDXRef-Package-2318c544acc83479",
+      "versionInfo": "9999.0-empty-to-avoid-conflict-with-guava",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "753b2f1458039860b52fd29ba1d3996c3b2cbfeb"
+      },
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.google.guava/listenablefuture@9999.0-empty-to-avoid-conflict-with-guava"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:fe8befa6e1b5751f8f33a8c0ed71b13a5862ff53380d0eab8a34808b3a340881"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:df016c794c3bfd35898add552d32b98834d2b7fdaecab998ed4502109636a38c"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: jar"
+        }
+      ]
+    },
+    {
+      "name": "com.google.j2objc:j2objc-annotations",
+      "SPDXID": "SPDXRef-Package-a48dca570256dea3",
+      "versionInfo": "3.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "26491e1cdb0fe0553d97c7e75400857ad51f0c83"
+      },
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.google.j2objc/j2objc-annotations@3.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:fe8befa6e1b5751f8f33a8c0ed71b13a5862ff53380d0eab8a34808b3a340881"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:df016c794c3bfd35898add552d32b98834d2b7fdaecab998ed4502109636a38c"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: jar"
+        }
+      ]
+    },
+    {
+      "name": "com.google.re2j:re2j",
+      "SPDXID": "SPDXRef-Package-f8c038076f94c4ca",
+      "versionInfo": "1.6",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "16b73e8d922b640120ab94c4fddea0af00f505ca"
+      },
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.google.re2j/re2j@1.6"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:1db64d30f1a7098bdeddcb239301965b961e46f092f816ef39213c1be2dba668"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:66bee5465b642709701c2ac4569a044d177e834948a26f8749e8eb6b2571a87d"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: jar"
+        }
+      ]
+    },
+    {
+      "name": "com.graphql-java:graphql-java",
+      "SPDXID": "SPDXRef-Package-9472a1ea956adf69",
+      "versionInfo": "21.5",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "effa3742dcb3b460a8f7a5c9698f2f85af453190"
+      },
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.graphql-java/graphql-java@21.5"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:1db64d30f1a7098bdeddcb239301965b961e46f092f816ef39213c1be2dba668"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:66bee5465b642709701c2ac4569a044d177e834948a26f8749e8eb6b2571a87d"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: jar"
+        }
+      ]
+    },
+    {
+      "name": "com.graphql-java:java-dataloader",
+      "SPDXID": "SPDXRef-Package-e77631a75b2cdf64",
+      "versionInfo": "3.2.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "76e3f322080789c33b602e918e8521c47ba9fe3e"
+      },
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.graphql-java/java-dataloader@3.2.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:1db64d30f1a7098bdeddcb239301965b961e46f092f816ef39213c1be2dba668"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:66bee5465b642709701c2ac4569a044d177e834948a26f8749e8eb6b2571a87d"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: jar"
+        }
+      ]
+    },
+    {
+      "name": "com.jayway.jsonpath:json-path",
+      "SPDXID": "SPDXRef-Package-e4be7b5d9d238b62",
+      "versionInfo": "2.10.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "6d188f82dab5ba06710756f0cce6fda42bda960a"
+      },
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.jayway.jsonpath/json-path@2.10.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:fe8befa6e1b5751f8f33a8c0ed71b13a5862ff53380d0eab8a34808b3a340881"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:df016c794c3bfd35898add552d32b98834d2b7fdaecab998ed4502109636a38c"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: jar"
+        }
+      ]
+    },
+    {
+      "name": "com.nulab-inc:zxcvbn",
+      "SPDXID": "SPDXRef-Package-cb593fcdf728de1d",
+      "versionInfo": "1.9.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "a7024c52085287cbb590e60e829b143ed2ac3891"
+      },
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.nulab-inc/zxcvbn@1.9.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:1db64d30f1a7098bdeddcb239301965b961e46f092f816ef39213c1be2dba668"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:66bee5465b642709701c2ac4569a044d177e834948a26f8749e8eb6b2571a87d"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: jar"
+        }
+      ]
+    },
+    {
+      "name": "commons-codec:commons-codec",
+      "SPDXID": "SPDXRef-Package-5469dc6adddce3a1",
+      "versionInfo": "1.20.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "40aa01d5c1cb9f54ebf1602ac64bb6a9b5b4255e"
+      },
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/commons-codec/commons-codec@1.20.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:1db64d30f1a7098bdeddcb239301965b961e46f092f816ef39213c1be2dba668"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:66bee5465b642709701c2ac4569a044d177e834948a26f8749e8eb6b2571a87d"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: jar"
+        }
+      ]
+    },
+    {
+      "name": "commons-collections:commons-collections",
+      "SPDXID": "SPDXRef-Package-2d98a18509c12f26",
+      "versionInfo": "3.2.2",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "7489cd9ca20e24309f9f5245800a841908ff73ab"
+      },
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/commons-collections/commons-collections@3.2.2"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:1db64d30f1a7098bdeddcb239301965b961e46f092f816ef39213c1be2dba668"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:66bee5465b642709701c2ac4569a044d177e834948a26f8749e8eb6b2571a87d"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: jar"
+        }
+      ]
+    },
+    {
+      "name": "commons-digester:commons-digester",
+      "SPDXID": "SPDXRef-Package-7b7cd1a06cb05475",
+      "versionInfo": "2.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "97e0e1c3433b8844a654b4bea766a123bffd9551"
+      },
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/commons-digester/commons-digester@2.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:1db64d30f1a7098bdeddcb239301965b961e46f092f816ef39213c1be2dba668"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:66bee5465b642709701c2ac4569a044d177e834948a26f8749e8eb6b2571a87d"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: jar"
+        }
+      ]
+    },
+    {
+      "name": "commons-io:commons-io",
+      "SPDXID": "SPDXRef-Package-6860669144602eb4",
+      "versionInfo": "2.20.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "03fde4480f088b79f8f5560dc061ee976590f500"
+      },
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/commons-io/commons-io@2.20.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:1db64d30f1a7098bdeddcb239301965b961e46f092f816ef39213c1be2dba668"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:66bee5465b642709701c2ac4569a044d177e834948a26f8749e8eb6b2571a87d"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: jar"
+        }
+      ]
+    },
+    {
+      "name": "commons-jxpath:commons-jxpath",
+      "SPDXID": "SPDXRef-Package-a9449f03398d2bd4",
+      "versionInfo": "1.4.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "1bac980cbc72f8ca0b16eeb4b08cfd808e843d08"
+      },
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/commons-jxpath/commons-jxpath@1.4.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:fe8befa6e1b5751f8f33a8c0ed71b13a5862ff53380d0eab8a34808b3a340881"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:df016c794c3bfd35898add552d32b98834d2b7fdaecab998ed4502109636a38c"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: jar"
+        }
+      ]
+    },
+    {
+      "name": "commons-logging:commons-logging",
+      "SPDXID": "SPDXRef-Package-bb05e53a2fd1a9f6",
+      "versionInfo": "1.2",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "2cf686bcbe665f58a7b785d0b1cf4f0878aec988"
+      },
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/commons-logging/commons-logging@1.2"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:1db64d30f1a7098bdeddcb239301965b961e46f092f816ef39213c1be2dba668"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:66bee5465b642709701c2ac4569a044d177e834948a26f8749e8eb6b2571a87d"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: jar"
+        }
+      ]
+    },
+    {
+      "name": "commons-validator:commons-validator",
+      "SPDXID": "SPDXRef-Package-15881b483eb0ce83",
+      "versionInfo": "1.7",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "7c2c8aaf6d23e523d0696ec0f26d8456c9ee9361"
+      },
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/commons-validator/commons-validator@1.7"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:1db64d30f1a7098bdeddcb239301965b961e46f092f816ef39213c1be2dba668"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:66bee5465b642709701c2ac4569a044d177e834948a26f8749e8eb6b2571a87d"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: jar"
+        }
+      ]
+    },
+    {
+      "name": "de.svenkubiak:jBCrypt",
+      "SPDXID": "SPDXRef-Package-cf308e01029c2c71",
+      "versionInfo": "0.4.3",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "4173d8e79dac6b0bbcee6dbf303aeae135dbf593"
+      },
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/de.svenkubiak/jBCrypt@0.4.3"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:1db64d30f1a7098bdeddcb239301965b961e46f092f816ef39213c1be2dba668"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:66bee5465b642709701c2ac4569a044d177e834948a26f8749e8eb6b2571a87d"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: jar"
+        }
+      ]
+    },
+    {
+      "name": "info.picocli:picocli",
+      "SPDXID": "SPDXRef-Package-b46285d1a74cba29",
+      "versionInfo": "4.7.7",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "2278c720f50a1e78d5dc5c4b0d848ad84a33a7ea"
+      },
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/info.picocli/picocli@4.7.7"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:fe8befa6e1b5751f8f33a8c0ed71b13a5862ff53380d0eab8a34808b3a340881"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:df016c794c3bfd35898add552d32b98834d2b7fdaecab998ed4502109636a38c"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: jar"
+        }
+      ]
+    },
+    {
+      "name": "io.dropwizard.metrics:metrics-core",
+      "SPDXID": "SPDXRef-Package-9b27c3ef869dde10",
+      "versionInfo": "4.2.38",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "fdf5ff755d95f172f8fe102371d69bd36699dcdc"
+      },
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/io.dropwizard.metrics/metrics-core@4.2.38"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:fe8befa6e1b5751f8f33a8c0ed71b13a5862ff53380d0eab8a34808b3a340881"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:df016c794c3bfd35898add552d32b98834d2b7fdaecab998ed4502109636a38c"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: jar"
+        }
+      ]
+    },
+    {
+      "name": "io.dropwizard.metrics:metrics-jvm",
+      "SPDXID": "SPDXRef-Package-ce4564191ebdf83e",
+      "versionInfo": "4.2.38",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "ed7e371812258e9f7770001bede2adc40383f590"
+      },
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/io.dropwizard.metrics/metrics-jvm@4.2.38"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:1db64d30f1a7098bdeddcb239301965b961e46f092f816ef39213c1be2dba668"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:66bee5465b642709701c2ac4569a044d177e834948a26f8749e8eb6b2571a87d"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: jar"
+        }
+      ]
+    },
+    {
+      "name": "io.github.classgraph:classgraph",
+      "SPDXID": "SPDXRef-Package-acbba9aba51af1fa",
+      "versionInfo": "4.8.184",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "c8b4f374336df94abf5918385291d184a0734b9d"
+      },
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/io.github.classgraph/classgraph@4.8.184"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:fe8befa6e1b5751f8f33a8c0ed71b13a5862ff53380d0eab8a34808b3a340881"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:df016c794c3bfd35898add552d32b98834d2b7fdaecab998ed4502109636a38c"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: jar"
+        }
+      ]
+    },
+    {
+      "name": "io.prometheus:simpleclient",
+      "SPDXID": "SPDXRef-Package-45fe3dfce89d7d40",
+      "versionInfo": "0.16.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "aeb2aa7f6b388f1ccf41535727d6d6eebf9d844a"
+      },
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/io.prometheus/simpleclient@0.16.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:1db64d30f1a7098bdeddcb239301965b961e46f092f816ef39213c1be2dba668"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:66bee5465b642709701c2ac4569a044d177e834948a26f8749e8eb6b2571a87d"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: jar"
+        }
+      ]
+    },
+    {
+      "name": "io.prometheus:simpleclient_common",
+      "SPDXID": "SPDXRef-Package-e3b1ac131252fc1b",
+      "versionInfo": "0.16.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "52a7591bb9ba4ed1c5ccd4ad1673bd829e7f5a98"
+      },
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/io.prometheus/simpleclient_common@0.16.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:1db64d30f1a7098bdeddcb239301965b961e46f092f816ef39213c1be2dba668"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:66bee5465b642709701c2ac4569a044d177e834948a26f8749e8eb6b2571a87d"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: jar"
+        }
+      ]
+    },
+    {
+      "name": "io.prometheus:simpleclient_dropwizard",
+      "SPDXID": "SPDXRef-Package-1b11191eb95eb2c9",
+      "versionInfo": "0.16.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "f1e1a4db3be95b234ff77c92f0cd7baff9b44286"
+      },
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/io.prometheus/simpleclient_dropwizard@0.16.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:1db64d30f1a7098bdeddcb239301965b961e46f092f816ef39213c1be2dba668"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:66bee5465b642709701c2ac4569a044d177e834948a26f8749e8eb6b2571a87d"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: jar"
+        }
+      ]
+    },
+    {
+      "name": "io.prometheus:simpleclient_tracer_common",
+      "SPDXID": "SPDXRef-Package-99afb54ae2377b1e",
+      "versionInfo": "0.16.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "a357871df1be295c3155523132ba86e4e03d4e40"
+      },
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/io.prometheus/simpleclient_tracer_common@0.16.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:1db64d30f1a7098bdeddcb239301965b961e46f092f816ef39213c1be2dba668"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:66bee5465b642709701c2ac4569a044d177e834948a26f8749e8eb6b2571a87d"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: jar"
+        }
+      ]
+    },
+    {
+      "name": "io.prometheus:simpleclient_tracer_otel",
+      "SPDXID": "SPDXRef-Package-15465dc2e6f7588e",
+      "versionInfo": "0.16.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "49d9e309cda2224d18a107d5ac457a89f2880381"
+      },
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/io.prometheus/simpleclient_tracer_otel@0.16.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:1db64d30f1a7098bdeddcb239301965b961e46f092f816ef39213c1be2dba668"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:66bee5465b642709701c2ac4569a044d177e834948a26f8749e8eb6b2571a87d"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: jar"
+        }
+      ]
+    },
+    {
+      "name": "io.prometheus:simpleclient_tracer_otel_agent",
+      "SPDXID": "SPDXRef-Package-d6b2a4924dd84ded",
+      "versionInfo": "0.16.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "e36d9a242e1084a18da56c6da178279a4de1ecce"
+      },
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/io.prometheus/simpleclient_tracer_otel_agent@0.16.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:1db64d30f1a7098bdeddcb239301965b961e46f092f816ef39213c1be2dba668"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:66bee5465b642709701c2ac4569a044d177e834948a26f8749e8eb6b2571a87d"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: jar"
+        }
+      ]
+    },
+    {
+      "name": "io.smallrye.common:smallrye-common-annotation",
+      "SPDXID": "SPDXRef-Package-9c8ff377a249d4c9",
+      "versionInfo": "2.14.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "6c602c8eee6338c34e26a2357e716c29dd3e3af6"
+      },
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/io.smallrye.common/smallrye-common-annotation@2.14.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:fe8befa6e1b5751f8f33a8c0ed71b13a5862ff53380d0eab8a34808b3a340881"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:df016c794c3bfd35898add552d32b98834d2b7fdaecab998ed4502109636a38c"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: jar"
+        }
+      ]
+    },
+    {
+      "name": "io.smallrye.common:smallrye-common-constraint",
+      "SPDXID": "SPDXRef-Package-f1d3df84666f58e5",
+      "versionInfo": "2.14.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "1c349e70ce6324257b5391e96ffe5d7748f2b02e"
+      },
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/io.smallrye.common/smallrye-common-constraint@2.14.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:fe8befa6e1b5751f8f33a8c0ed71b13a5862ff53380d0eab8a34808b3a340881"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:df016c794c3bfd35898add552d32b98834d2b7fdaecab998ed4502109636a38c"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: jar"
+        }
+      ]
+    },
+    {
+      "name": "io.smallrye.common:smallrye-common-cpu",
+      "SPDXID": "SPDXRef-Package-92d94046aaac6ef9",
+      "versionInfo": "2.14.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "44e1d78fb6ef738bd15345c5bf605c7ceb19210e"
+      },
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/io.smallrye.common/smallrye-common-cpu@2.14.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:fe8befa6e1b5751f8f33a8c0ed71b13a5862ff53380d0eab8a34808b3a340881"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:df016c794c3bfd35898add552d32b98834d2b7fdaecab998ed4502109636a38c"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: jar"
+        }
+      ]
+    },
+    {
+      "name": "io.smallrye.common:smallrye-common-function",
+      "SPDXID": "SPDXRef-Package-33074e94fcdc60d4",
+      "versionInfo": "2.14.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "3fe386d2fe52cf7431ae1b84e442dea1f37bce8b"
+      },
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/io.smallrye.common/smallrye-common-function@2.14.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:fe8befa6e1b5751f8f33a8c0ed71b13a5862ff53380d0eab8a34808b3a340881"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:df016c794c3bfd35898add552d32b98834d2b7fdaecab998ed4502109636a38c"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: jar"
+        }
+      ]
+    },
+    {
+      "name": "io.undertow:undertow-core",
+      "SPDXID": "SPDXRef-Package-623da7ca21f36bd",
+      "versionInfo": "2.3.23.Final",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "cf45d1b20a7e4914e0c704b665817983a3737513"
+      },
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/io.undertow/undertow-core@2.3.23.Final"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:fe8befa6e1b5751f8f33a8c0ed71b13a5862ff53380d0eab8a34808b3a340881"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:df016c794c3bfd35898add552d32b98834d2b7fdaecab998ed4502109636a38c"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: jar"
+        }
+      ]
+    },
+    {
+      "name": "joda-time:joda-time",
+      "SPDXID": "SPDXRef-Package-486c60b1701d9686",
+      "versionInfo": "2.10.2",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "3ddcae85209172d1609f9fea1ac602bca273f165"
+      },
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/joda-time/joda-time@2.10.2"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:1db64d30f1a7098bdeddcb239301965b961e46f092f816ef39213c1be2dba668"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:66bee5465b642709701c2ac4569a044d177e834948a26f8749e8eb6b2571a87d"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: jar"
+        }
+      ]
+    },
+    {
+      "name": "libc6",
+      "SPDXID": "SPDXRef-Package-25053c0ea26894dc",
+      "versionInfo": "2.36-9+deb12u13",
+      "supplier": "Organization: GNU Libc Maintainers \u003cdebian-glibc@lists.debian.org\u003e",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "built package from: glibc 2.36-9+deb12u13",
+      "licenseConcluded": "LGPL-2.1-only AND GPL-2.0-only",
+      "licenseDeclared": "LGPL-2.1-only AND GPL-2.0-only",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:deb/debian/libc6@2.36-9%2Bdeb12u13?arch=amd64\u0026distro=debian-12.13"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:bd29502adf199ad9c03afba9bc79df572a26ec60a2a6ffdda4883a5b7a1632fe"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:c65bb0c25578bf8f2a8b87d1996dfd93a5330c03195c8f0401cf88b2e0de9210"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: libc6@2.36-9+deb12u13"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: debian"
+        }
+      ]
+    },
+    {
+      "name": "libssl3",
+      "SPDXID": "SPDXRef-Package-8721822ea202249e",
+      "versionInfo": "3.0.18-1~deb12u2",
+      "supplier": "Organization: Debian OpenSSL Team \u003cpkg-openssl-devel@alioth-lists.debian.net\u003e",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "built package from: openssl 3.0.18-1~deb12u2",
+      "licenseConcluded": "Apache-2.0 AND Artistic-2.0 AND GPL-1.0-or-later AND GPL-1.0-only",
+      "licenseDeclared": "Apache-2.0 AND Artistic-2.0 AND GPL-1.0-or-later AND GPL-1.0-only",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:deb/debian/libssl3@3.0.18-1~deb12u2?arch=amd64\u0026distro=debian-12.13"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:51ad86252c685cc9d72891e041d4409dc895ab5b2ebec2bb986044568d77bd98"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:13724d053e3111cb832ee8e49539a875afa879595fa76974c70b1981f057a675"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: libssl3@3.0.18-1~deb12u2"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: debian"
+        }
+      ]
+    },
+    {
+      "name": "media-types",
+      "SPDXID": "SPDXRef-Package-bde1e25ba758f5ce",
+      "versionInfo": "10.0.0",
+      "supplier": "Organization: Mime-Support Packagers \u003cteam+debian-mimesupport-packagers@tracker.debian.org\u003e",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "built package from: media-types 10.0.0",
+      "licenseConcluded": "LicenseRef-50928525ea117d4d",
+      "licenseDeclared": "LicenseRef-50928525ea117d4d",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:deb/debian/media-types@10.0.0?arch=all\u0026distro=debian-12.13"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:114dde0fefebbca13165d0da9c500a66190e497a82a53dcaabc3172d630be1e9"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:bf7a4185f01524837d19abde915ffde84e64368b250f5b5e9f6f75aea62a11d4"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: media-types@10.0.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: debian"
+        }
+      ]
+    },
+    {
+      "name": "net.minidev:accessors-smart",
+      "SPDXID": "SPDXRef-Package-2575eb3c3fe990c1",
+      "versionInfo": "2.6.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "5ef45146d28eef50f59e33621aa1a19c64f00b84"
+      },
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/net.minidev/accessors-smart@2.6.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:fe8befa6e1b5751f8f33a8c0ed71b13a5862ff53380d0eab8a34808b3a340881"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:df016c794c3bfd35898add552d32b98834d2b7fdaecab998ed4502109636a38c"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: jar"
+        }
+      ]
+    },
+    {
+      "name": "net.minidev:json-smart",
+      "SPDXID": "SPDXRef-Package-1618dbbc558e095b",
+      "versionInfo": "2.6.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "84d1ec492afdb6adf7c489861de909df4a3f23fb"
+      },
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/net.minidev/json-smart@2.6.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:fe8befa6e1b5751f8f33a8c0ed71b13a5862ff53380d0eab8a34808b3a340881"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:df016c794c3bfd35898add552d32b98834d2b7fdaecab998ed4502109636a38c"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: jar"
+        }
+      ]
+    },
+    {
+      "name": "netbase",
+      "SPDXID": "SPDXRef-Package-71fb848f1e2a846",
+      "versionInfo": "6.4",
+      "supplier": "Organization: Marco d'Itri \u003cmd@linux.it\u003e",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "built package from: netbase 6.4",
+      "licenseConcluded": "GPL-2.0-only",
+      "licenseDeclared": "GPL-2.0-only",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:deb/debian/netbase@6.4?arch=all\u0026distro=debian-12.13"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:8fa10c0194df9b7c054c90dbe482585f768a54428fc90a5b78a0066a123b1bba"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:990a9c434e5e0f11549a8d4a41a1991e621b04e30cd63269adbc97b1dc38fd7e"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: netbase@6.4"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: debian"
+        }
+      ]
+    },
+    {
+      "name": "org.antlr:antlr4-runtime",
+      "SPDXID": "SPDXRef-Package-7df91cfe7a872b26",
+      "versionInfo": "4.11.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "effa3742dcb3b460a8f7a5c9698f2f85af453190"
+      },
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.antlr/antlr4-runtime@4.11.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:1db64d30f1a7098bdeddcb239301965b961e46f092f816ef39213c1be2dba668"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:66bee5465b642709701c2ac4569a044d177e834948a26f8749e8eb6b2571a87d"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: jar"
+        }
+      ]
+    },
+    {
+      "name": "org.apache.tika:tika-core",
+      "SPDXID": "SPDXRef-Package-348df8ce68d12c1a",
+      "versionInfo": "3.2.3",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "67528eed9cde32c6b91ad5881bd173912b8aadae"
+      },
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.apache.tika/tika-core@3.2.3"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:1db64d30f1a7098bdeddcb239301965b961e46f092f816ef39213c1be2dba668"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:66bee5465b642709701c2ac4569a044d177e834948a26f8749e8eb6b2571a87d"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: jar"
+        }
+      ]
+    },
+    {
+      "name": "org.everit.json:org.everit.json.schema",
+      "SPDXID": "SPDXRef-Package-9da3ee7fbd111efe",
+      "versionInfo": "1.14.4",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "71b0c634715084a4f3c0a09e7ff3f7705c8f007f"
+      },
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.everit.json/org.everit.json.schema@1.14.4"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:1db64d30f1a7098bdeddcb239301965b961e46f092f816ef39213c1be2dba668"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:66bee5465b642709701c2ac4569a044d177e834948a26f8749e8eb6b2571a87d"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: jar"
+        }
+      ]
+    },
+    {
+      "name": "org.fusesource.jansi:jansi",
+      "SPDXID": "SPDXRef-Package-17449db83b205c7d",
+      "versionInfo": "2.4.2",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "d23454f6bb168492a0d88d50f3863e0e346de012"
+      },
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.fusesource.jansi/jansi@2.4.2"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:fe8befa6e1b5751f8f33a8c0ed71b13a5862ff53380d0eab8a34808b3a340881"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:df016c794c3bfd35898add552d32b98834d2b7fdaecab998ed4502109636a38c"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: jar"
+        }
+      ]
+    },
+    {
+      "name": "org.graalvm.js:js-language",
+      "SPDXID": "SPDXRef-Package-61404c5ed9c5dc2e",
+      "versionInfo": "25.0.2",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "5a8835720265b2887cd50e652ca94c3be4cf222f"
+      },
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.graalvm.js/js-language@25.0.2"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:1db64d30f1a7098bdeddcb239301965b961e46f092f816ef39213c1be2dba668"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:66bee5465b642709701c2ac4569a044d177e834948a26f8749e8eb6b2571a87d"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: jar"
+        }
+      ]
+    },
+    {
+      "name": "org.graalvm.polyglot:polyglot",
+      "SPDXID": "SPDXRef-Package-cc347a512d5fc579",
+      "versionInfo": "25.0.2",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "2914318a9a834f90535f93b204c6c98cb69497d9"
+      },
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.graalvm.polyglot/polyglot@25.0.2"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:1db64d30f1a7098bdeddcb239301965b961e46f092f816ef39213c1be2dba668"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:66bee5465b642709701c2ac4569a044d177e834948a26f8749e8eb6b2571a87d"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: jar"
+        }
+      ]
+    },
+    {
+      "name": "org.graalvm.regex:regex",
+      "SPDXID": "SPDXRef-Package-2caf2496526d6061",
+      "versionInfo": "25.0.2",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "17c5e87d4affa63ed6c6ef656d811c3259f15b35"
+      },
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.graalvm.regex/regex@25.0.2"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:1db64d30f1a7098bdeddcb239301965b961e46f092f816ef39213c1be2dba668"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:66bee5465b642709701c2ac4569a044d177e834948a26f8749e8eb6b2571a87d"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: jar"
+        }
+      ]
+    },
+    {
+      "name": "org.graalvm.shadowed:icu4j",
+      "SPDXID": "SPDXRef-Package-3758ba664f734665",
+      "versionInfo": "25.0.2",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "68d7c61f6e768588d292497458cb61ad3bd430bb"
+      },
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.graalvm.shadowed/icu4j@25.0.2"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:1db64d30f1a7098bdeddcb239301965b961e46f092f816ef39213c1be2dba668"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:66bee5465b642709701c2ac4569a044d177e834948a26f8749e8eb6b2571a87d"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: jar"
+        }
+      ]
+    },
+    {
+      "name": "org.graalvm.shadowed:xz",
+      "SPDXID": "SPDXRef-Package-dcbaf59cf4fb8da2",
+      "versionInfo": "25.0.2",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "f62b3eb32ed1eb07819d5311d0a94dc09ef375c4"
+      },
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.graalvm.shadowed/xz@25.0.2"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:1db64d30f1a7098bdeddcb239301965b961e46f092f816ef39213c1be2dba668"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:66bee5465b642709701c2ac4569a044d177e834948a26f8749e8eb6b2571a87d"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: jar"
+        }
+      ]
+    },
+    {
+      "name": "org.graalvm.truffle:truffle-api",
+      "SPDXID": "SPDXRef-Package-d95cda8d8fa66a3c",
+      "versionInfo": "25.0.2",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "67a1c1e5a88db30a5016539a414b2d1cc1d640c3"
+      },
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.graalvm.truffle/truffle-api@25.0.2"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:1db64d30f1a7098bdeddcb239301965b961e46f092f816ef39213c1be2dba668"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:66bee5465b642709701c2ac4569a044d177e834948a26f8749e8eb6b2571a87d"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: jar"
+        }
+      ]
+    },
+    {
+      "name": "org.jboss.logging:jboss-logging",
+      "SPDXID": "SPDXRef-Package-24243ca26342cfaa",
+      "versionInfo": "3.4.3.Final",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "9ae3e4fc4793bf76131f9bced6e215901eb9d3d8"
+      },
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.jboss.logging/jboss-logging@3.4.3.Final"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:fe8befa6e1b5751f8f33a8c0ed71b13a5862ff53380d0eab8a34808b3a340881"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:df016c794c3bfd35898add552d32b98834d2b7fdaecab998ed4502109636a38c"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: jar"
+        }
+      ]
+    },
+    {
+      "name": "org.jboss.threads:jboss-threads",
+      "SPDXID": "SPDXRef-Package-3e3f374787d06942",
+      "versionInfo": "3.9.2",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "8bf37226283a9b5edfb2662611d7df84789b6e6c"
+      },
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.jboss.threads/jboss-threads@3.9.2"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:fe8befa6e1b5751f8f33a8c0ed71b13a5862ff53380d0eab8a34808b3a340881"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:df016c794c3bfd35898add552d32b98834d2b7fdaecab998ed4502109636a38c"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: jar"
+        }
+      ]
+    },
+    {
+      "name": "org.jboss.xnio:xnio-api",
+      "SPDXID": "SPDXRef-Package-dea97c2e30abf6d4",
+      "versionInfo": "3.8.16.Final",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "3cc5d566d3575dbe7eef2be2b155ef59481e572f"
+      },
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.jboss.xnio/xnio-api@3.8.16.Final"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:fe8befa6e1b5751f8f33a8c0ed71b13a5862ff53380d0eab8a34808b3a340881"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:df016c794c3bfd35898add552d32b98834d2b7fdaecab998ed4502109636a38c"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: jar"
+        }
+      ]
+    },
+    {
+      "name": "org.jboss.xnio:xnio-nio",
+      "SPDXID": "SPDXRef-Package-faee357bda934e9a",
+      "versionInfo": "3.8.16.Final",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "6986794395e1355407397b4629d8c59351b09470"
+      },
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.jboss.xnio/xnio-nio@3.8.16.Final"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:fe8befa6e1b5751f8f33a8c0ed71b13a5862ff53380d0eab8a34808b3a340881"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:df016c794c3bfd35898add552d32b98834d2b7fdaecab998ed4502109636a38c"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: jar"
+        }
+      ]
+    },
+    {
+      "name": "org.json:json",
+      "SPDXID": "SPDXRef-Package-b1635840365f27f3",
+      "versionInfo": "20250517",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "2065512624af6358428f6831d4c6690a654699d0"
+      },
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.json/json@20250517"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:1db64d30f1a7098bdeddcb239301965b961e46f092f816ef39213c1be2dba668"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:66bee5465b642709701c2ac4569a044d177e834948a26f8749e8eb6b2571a87d"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: jar"
+        }
+      ]
+    },
+    {
+      "name": "org.jspecify:jspecify",
+      "SPDXID": "SPDXRef-Package-f4a5515b23112ac8",
+      "versionInfo": "1.0.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "02fdbce2843fb922defa46ab0ed1459cbbf58cfe"
+      },
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.jspecify/jspecify@1.0.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:fe8befa6e1b5751f8f33a8c0ed71b13a5862ff53380d0eab8a34808b3a340881"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:df016c794c3bfd35898add552d32b98834d2b7fdaecab998ed4502109636a38c"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: jar"
+        }
+      ]
+    },
+    {
+      "name": "org.mongodb:bson",
+      "SPDXID": "SPDXRef-Package-b4372db51e59aaa2",
+      "versionInfo": "5.6.3",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "fb86b9bab1e06c6769a8463abdb885e1251212b6"
+      },
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.mongodb/bson@5.6.3"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:fe8befa6e1b5751f8f33a8c0ed71b13a5862ff53380d0eab8a34808b3a340881"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:df016c794c3bfd35898add552d32b98834d2b7fdaecab998ed4502109636a38c"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: jar"
+        }
+      ]
+    },
+    {
+      "name": "org.mongodb:bson-record-codec",
+      "SPDXID": "SPDXRef-Package-5ae4f83b81b55e89",
+      "versionInfo": "5.6.3",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "69c88c4ce0ac27e133002ca263cda7bdd2eb5f55"
+      },
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.mongodb/bson-record-codec@5.6.3"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:fe8befa6e1b5751f8f33a8c0ed71b13a5862ff53380d0eab8a34808b3a340881"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:df016c794c3bfd35898add552d32b98834d2b7fdaecab998ed4502109636a38c"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: jar"
+        }
+      ]
+    },
+    {
+      "name": "org.mongodb:mongodb-driver-core",
+      "SPDXID": "SPDXRef-Package-800bd82271cc580e",
+      "versionInfo": "5.6.3",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "dbbb97a239ec7f3422b53b632454b104253e52b1"
+      },
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.mongodb/mongodb-driver-core@5.6.3"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:fe8befa6e1b5751f8f33a8c0ed71b13a5862ff53380d0eab8a34808b3a340881"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:df016c794c3bfd35898add552d32b98834d2b7fdaecab998ed4502109636a38c"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: jar"
+        }
+      ]
+    },
+    {
+      "name": "org.mongodb:mongodb-driver-sync",
+      "SPDXID": "SPDXRef-Package-b3c877e9fa0ab676",
+      "versionInfo": "5.6.3",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "19fb6638608865cdf1ac743af4a8c044ddb08a6d"
+      },
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.mongodb/mongodb-driver-sync@5.6.3"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:fe8befa6e1b5751f8f33a8c0ed71b13a5862ff53380d0eab8a34808b3a340881"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:df016c794c3bfd35898add552d32b98834d2b7fdaecab998ed4502109636a38c"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: jar"
+        }
+      ]
+    },
+    {
+      "name": "org.ow2.asm:asm",
+      "SPDXID": "SPDXRef-Package-d0b2b8cc4f329cd6",
+      "versionInfo": "9.7.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "015b6ecd407d380ce960b13794d3323bf173f907"
+      },
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.ow2.asm/asm@9.7.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:fe8befa6e1b5751f8f33a8c0ed71b13a5862ff53380d0eab8a34808b3a340881"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:df016c794c3bfd35898add552d32b98834d2b7fdaecab998ed4502109636a38c"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: jar"
+        }
+      ]
+    },
+    {
+      "name": "org.reactivestreams:reactive-streams",
+      "SPDXID": "SPDXRef-Package-1d055e8b4af573a1",
+      "versionInfo": "1.0.3",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "77dfcbae56c4ea27f324ff28578fca6460cb767f"
+      },
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.reactivestreams/reactive-streams@1.0.3"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:1db64d30f1a7098bdeddcb239301965b961e46f092f816ef39213c1be2dba668"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:66bee5465b642709701c2ac4569a044d177e834948a26f8749e8eb6b2571a87d"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: jar"
+        }
+      ]
+    },
+    {
+      "name": "org.restheart:restheart",
+      "SPDXID": "SPDXRef-Package-85a18c2b05525378",
+      "versionInfo": "9.2.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "9fce7efa969fce19e720e3656a8e05c8a552966a"
+      },
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.restheart/restheart@9.2.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:e0df1d9f41333e3f09380ed92d194ebef43359d1fdda44c3b4564e96fa6799c3"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:a6e9d801e23d7e6ec698deff3e7510fbef1c765aa7b448d2c8fbb0d512a17842"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: jar"
+        }
+      ]
+    },
+    {
+      "name": "org.restheart:restheart-commons",
+      "SPDXID": "SPDXRef-Package-dde28e39d5e9d510",
+      "versionInfo": "9.2.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "4bb1ffab0af68627db452d1e215db17e783c602e"
+      },
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.restheart/restheart-commons@9.2.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:fe8befa6e1b5751f8f33a8c0ed71b13a5862ff53380d0eab8a34808b3a340881"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:df016c794c3bfd35898add552d32b98834d2b7fdaecab998ed4502109636a38c"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: jar"
+        }
+      ]
+    },
+    {
+      "name": "org.restheart:restheart-graphql",
+      "SPDXID": "SPDXRef-Package-10a2dfcecc7ea70d",
+      "versionInfo": "9.2.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "fd896f18aa3a7c46a90e73ff849a2febab50cbd0"
+      },
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.restheart/restheart-graphql@9.2.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:ac0bc7ef7def4a9eabdb6eb6d0b2f4d50b7cbe098aad2326c4dcb79298717fa0"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:6059f1f336fa2c23d2991b1aa9677754b1b5d3e6e9101196b37538db7cc9316a"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: jar"
+        }
+      ]
+    },
+    {
+      "name": "org.restheart:restheart-metrics",
+      "SPDXID": "SPDXRef-Package-1f9fd68e89a62628",
+      "versionInfo": "9.2.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "c29ee759acac794c278e993046848db972f03dd8"
+      },
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.restheart/restheart-metrics@9.2.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:ac0bc7ef7def4a9eabdb6eb6d0b2f4d50b7cbe098aad2326c4dcb79298717fa0"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:6059f1f336fa2c23d2991b1aa9677754b1b5d3e6e9101196b37538db7cc9316a"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: jar"
+        }
+      ]
+    },
+    {
+      "name": "org.restheart:restheart-mongoclient-provider",
+      "SPDXID": "SPDXRef-Package-c2c6f2ddaa17eef",
+      "versionInfo": "9.2.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "fccb9e4202efc6bd8d3e4c71a5fce51414425d58"
+      },
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.restheart/restheart-mongoclient-provider@9.2.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:ac0bc7ef7def4a9eabdb6eb6d0b2f4d50b7cbe098aad2326c4dcb79298717fa0"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:6059f1f336fa2c23d2991b1aa9677754b1b5d3e6e9101196b37538db7cc9316a"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: jar"
+        }
+      ]
+    },
+    {
+      "name": "org.restheart:restheart-mongodb",
+      "SPDXID": "SPDXRef-Package-ca425274ca9b8837",
+      "versionInfo": "9.2.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "fd9cedd1cc9fd574b0f6b0b663559ff6351ca05c"
+      },
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.restheart/restheart-mongodb@9.2.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:ac0bc7ef7def4a9eabdb6eb6d0b2f4d50b7cbe098aad2326c4dcb79298717fa0"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:6059f1f336fa2c23d2991b1aa9677754b1b5d3e6e9101196b37538db7cc9316a"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: jar"
+        }
+      ]
+    },
+    {
+      "name": "org.restheart:restheart-polyglot",
+      "SPDXID": "SPDXRef-Package-3de53f2a3edb53f8",
+      "versionInfo": "9.2.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "27b5d67512eb10b8d259d51b2700908a4c59ba45"
+      },
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.restheart/restheart-polyglot@9.2.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:ac0bc7ef7def4a9eabdb6eb6d0b2f4d50b7cbe098aad2326c4dcb79298717fa0"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:6059f1f336fa2c23d2991b1aa9677754b1b5d3e6e9101196b37538db7cc9316a"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: jar"
+        }
+      ]
+    },
+    {
+      "name": "org.restheart:restheart-security",
+      "SPDXID": "SPDXRef-Package-210959f0f7a4db7d",
+      "versionInfo": "9.2.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "3fef718004b18d63cf7a3e5dccc4e2ab2d040cff"
+      },
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.restheart/restheart-security@9.2.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:ac0bc7ef7def4a9eabdb6eb6d0b2f4d50b7cbe098aad2326c4dcb79298717fa0"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:6059f1f336fa2c23d2991b1aa9677754b1b5d3e6e9101196b37538db7cc9316a"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: jar"
+        }
+      ]
+    },
+    {
+      "name": "org.slf4j:slf4j-api",
+      "SPDXID": "SPDXRef-Package-545642daed27c7",
+      "versionInfo": "2.0.17",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "59921646124d5435540b41b673077022700fdcc1"
+      },
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.slf4j/slf4j-api@2.0.17"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:fe8befa6e1b5751f8f33a8c0ed71b13a5862ff53380d0eab8a34808b3a340881"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:df016c794c3bfd35898add552d32b98834d2b7fdaecab998ed4502109636a38c"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: jar"
+        }
+      ]
+    },
+    {
+      "name": "org.wildfly.client:wildfly-client-config",
+      "SPDXID": "SPDXRef-Package-9a1e3a3dabe8870",
+      "versionInfo": "1.0.1.Final",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "bc1aab17df6c720ad05442d5bd244faa41f799ce"
+      },
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.wildfly.client/wildfly-client-config@1.0.1.Final"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:fe8befa6e1b5751f8f33a8c0ed71b13a5862ff53380d0eab8a34808b3a340881"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:df016c794c3bfd35898add552d32b98834d2b7fdaecab998ed4502109636a38c"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: jar"
+        }
+      ]
+    },
+    {
+      "name": "org.wildfly.common:wildfly-common",
+      "SPDXID": "SPDXRef-Package-45464590961da731",
+      "versionInfo": "1.7.0.Final",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "3cf40140a3ba4bea94f96db6af7de9ee78c1e99d"
+      },
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.wildfly.common/wildfly-common@1.7.0.Final"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:fe8befa6e1b5751f8f33a8c0ed71b13a5862ff53380d0eab8a34808b3a340881"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:df016c794c3bfd35898add552d32b98834d2b7fdaecab998ed4502109636a38c"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: jar"
+        }
+      ]
+    },
+    {
+      "name": "org.yaml:snakeyaml",
+      "SPDXID": "SPDXRef-Package-70e5302535414d3a",
+      "versionInfo": "2.5",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "5f5faf5723db286f8b056e359b7ceece90d365c1"
+      },
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.yaml/snakeyaml@2.5"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:fe8befa6e1b5751f8f33a8c0ed71b13a5862ff53380d0eab8a34808b3a340881"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:df016c794c3bfd35898add552d32b98834d2b7fdaecab998ed4502109636a38c"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: jar"
+        }
+      ]
+    },
+    {
+      "name": "tzdata",
+      "SPDXID": "SPDXRef-Package-a07096950dc1cdc8",
+      "versionInfo": "2025b-0+deb12u2",
+      "supplier": "Organization: GNU Libc Maintainers \u003cdebian-glibc@lists.debian.org\u003e",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "built package from: tzdata 2025b-0+deb12u2",
+      "licenseConcluded": "LicenseRef-abb60753a4b5686d",
+      "licenseDeclared": "LicenseRef-abb60753a4b5686d",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:deb/debian/tzdata@2025b-0%2Bdeb12u2?arch=all\u0026distro=debian-12.13"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:4840c7c54023c867f19564429c89ddae4e9589c83dce82492183a7e9f7dab1fa"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:ef49c20a7b35aa995683f311510d35d77e203a2204f84de14a71a6d726e6af73"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: tzdata@2025b-0+deb12u2"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: debian"
+        }
+      ]
+    },
+    {
+      "name": "debian",
+      "SPDXID": "SPDXRef-OperatingSystem-8e46ab1f7397f662",
+      "versionInfo": "12.13",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "primaryPackagePurpose": "OPERATING-SYSTEM",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "Class: os-pkgs"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:20:36Z",
+          "annotationType": "OTHER",
+          "comment": "Type: debian"
+        }
+      ]
+    }
+  ],
+  "files": [
+    {
+      "fileName": "opt/restheart/lib/accessors-smart-2.6.0.jar",
+      "SPDXID": "SPDXRef-File-ee8a47306a39b3bc",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "2d96f1d9b6ab7f13261aa81b15703574185747a0"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "opt/restheart/lib/asm-9.7.1.jar",
+      "SPDXID": "SPDXRef-File-aa929a9d4bdf7fba",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "f0ed132a49244b042cd0e15702ab9f2ce3cc8436"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "opt/restheart/lib/bson-5.6.3.jar",
+      "SPDXID": "SPDXRef-File-ea1a19583b16f64e",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "beb315747f2945d7c18c663bc50c2c49c40fd027"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "opt/restheart/lib/bson-record-codec-5.6.3.jar",
+      "SPDXID": "SPDXRef-File-258a2a01f75a4241",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "9758f6e0e0e143be3e717d03db44fab1fe2bcd83"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "opt/restheart/lib/caffeine-3.2.3.jar",
+      "SPDXID": "SPDXRef-File-bf6f6c5a4f37f8cb",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "c097f0f6d21a0e6db88ea55836e26419b30dfe19"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "opt/restheart/lib/classgraph-4.8.184.jar",
+      "SPDXID": "SPDXRef-File-90111607895518f5",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "a4f7ddec0f831dcf7ec3db32ae2c7e628c89f1a6"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "opt/restheart/lib/commons-jxpath-1.4.0.jar",
+      "SPDXID": "SPDXRef-File-1b73242daf1db1dd",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "f61af30d8db727b7bb53d285fe074f89d8b68951"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "opt/restheart/lib/error_prone_annotations-2.41.0.jar",
+      "SPDXID": "SPDXRef-File-ec26ff4aa3f7a3cb",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "4381275efdef6ddfae38f002c31e84cd001c97f0"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "opt/restheart/lib/failureaccess-1.0.3.jar",
+      "SPDXID": "SPDXRef-File-ca9cfb2c44249bf2",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "aeaffd00d57023a2c947393ed251f0354f0985fc"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "opt/restheart/lib/gson-2.13.2.jar",
+      "SPDXID": "SPDXRef-File-fcc9c4efa915f409",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "48b8230771e573b54ce6e867a9001e75977fe78e"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "opt/restheart/lib/guava-33.5.0-jre.jar",
+      "SPDXID": "SPDXRef-File-3d908c2f5d210ba1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "8699de25f2f979108d6c1b804a7ba38cda1116bc"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "opt/restheart/lib/j2objc-annotations-3.1.jar",
+      "SPDXID": "SPDXRef-File-c527fb19d73cf7df",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "a892ca9507839bbdb900d64310ac98256cab992f"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "opt/restheart/lib/jansi-2.4.2.jar",
+      "SPDXID": "SPDXRef-File-e5ef078243e07d0f",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "ba7387c31622c6650b83edba1bbb115f1fe462ba"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "opt/restheart/lib/jboss-logging-3.4.3.Final.jar",
+      "SPDXID": "SPDXRef-File-bcc585aac06f0d6b",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "c4bd7e12a745c0e7f6cf98c45cdcdf482fd827ea"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "opt/restheart/lib/jboss-threads-3.9.2.jar",
+      "SPDXID": "SPDXRef-File-1ff96e8709d8d675",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "ee52e069cee3c892de572b0011d80c9c9bd81fd4"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "opt/restheart/lib/json-path-2.10.0.jar",
+      "SPDXID": "SPDXRef-File-e39fab8ba82ac0f9",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "e1a0b2e6db75401181c9c1c64c6d155ca5c6d608"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "opt/restheart/lib/json-smart-2.6.0.jar",
+      "SPDXID": "SPDXRef-File-ef94d55c4c07b8da",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "5f858a43a325a8673da6869ab2bc787a1bcb2244"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "opt/restheart/lib/jspecify-1.0.0.jar",
+      "SPDXID": "SPDXRef-File-e3fed664742f3e06",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "7425a601c1c7ec76645a78d22b8c6a627edee507"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "opt/restheart/lib/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar",
+      "SPDXID": "SPDXRef-File-dae7b48bce2052d5",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "b421526c5f297295adef1c886e5246c39d4ac629"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "opt/restheart/lib/logback-classic-1.5.32.jar",
+      "SPDXID": "SPDXRef-File-27d7d9215326c075",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "2b1042c50f508f2eb402bd4d22ccbdf94cc37d2e"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "opt/restheart/lib/logback-core-1.5.32.jar",
+      "SPDXID": "SPDXRef-File-d307c6dd5b29110e",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "fdfb3ff9a842303d4a95207294a6c6bc64e2605d"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "opt/restheart/lib/metrics-core-4.2.38.jar",
+      "SPDXID": "SPDXRef-File-6cba27730ff7c08e",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "4b69739b1e6a3c988695d600a908d82c64283605"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "opt/restheart/lib/mongodb-driver-core-5.6.3.jar",
+      "SPDXID": "SPDXRef-File-7492ab1c223dcc17",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "d2bf38d3b70fdad2fa151bbaa18f9acbd9934ae4"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "opt/restheart/lib/mongodb-driver-sync-5.6.3.jar",
+      "SPDXID": "SPDXRef-File-d7a95aaa365d9a33",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "7b5bf242a61824c4c91ebb61aeec602a335cd26f"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "opt/restheart/lib/picocli-4.7.7.jar",
+      "SPDXID": "SPDXRef-File-3176dd19a29798c7",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "82bcae3dc45ddeb08b4954e2f596772a42219715"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "opt/restheart/lib/restheart-commons-9.2.1.jar",
+      "SPDXID": "SPDXRef-File-a5953a195e23ca89",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "709bb4928eb8de1e6945ccecdbbf1306118b4e71"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "opt/restheart/lib/slf4j-api-2.0.17.jar",
+      "SPDXID": "SPDXRef-File-9579de5ff6ec76fc",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "d9e58ac9c7779ba3bf8142aff6c830617a7fe60f"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "opt/restheart/lib/smallrye-common-annotation-2.14.0.jar",
+      "SPDXID": "SPDXRef-File-ad8a01dcce4676aa",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "5a2d58a31f47fa47a685238132bf20c6c085d5d7"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "opt/restheart/lib/smallrye-common-constraint-2.14.0.jar",
+      "SPDXID": "SPDXRef-File-d698d2b7e1d75ee8",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "72145a1dc9b65e805dc82740f20a43817d4b21f0"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "opt/restheart/lib/smallrye-common-cpu-2.14.0.jar",
+      "SPDXID": "SPDXRef-File-ab83550c2d297e61",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "a9d8c180721ca52f7bfd5ec1115d017fb1c5ce76"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "opt/restheart/lib/smallrye-common-function-2.14.0.jar",
+      "SPDXID": "SPDXRef-File-4301646bdbfb8f83",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "e2ea1d1c5baf4794133b4ff06712096149527329"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "opt/restheart/lib/snakeyaml-2.5.jar",
+      "SPDXID": "SPDXRef-File-a5c5e8e8ed93ce60",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "2d53ddec134280cb384c1e35d094e5f71c1f2316"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "opt/restheart/lib/undertow-core-2.3.23.Final.jar",
+      "SPDXID": "SPDXRef-File-5d2860d5858aa01e",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "c45632a3987a4782d3979992c54ef1a116509142"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "opt/restheart/lib/wildfly-client-config-1.0.1.Final.jar",
+      "SPDXID": "SPDXRef-File-aaa78b42cd21502e",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "2a803b23c40a0de0f03a90d1fd3755747bc05f4b"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "opt/restheart/lib/wildfly-common-1.7.0.Final.jar",
+      "SPDXID": "SPDXRef-File-f5f3024790c3c33f",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "b5237d5e5a46ede4e4e142d79623d04b59d11476"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "opt/restheart/lib/xnio-api-3.8.16.Final.jar",
+      "SPDXID": "SPDXRef-File-48a09de06a3f2cf3",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "7c98c649a4583523c23cc0a7e62ddace1f486b54"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "opt/restheart/lib/xnio-nio-3.8.16.Final.jar",
+      "SPDXID": "SPDXRef-File-12df2db79675a0d9",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "9aab17706a371a212fd051b09c7959d29d051379"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "opt/restheart/plugins/lib/commons-codec-1.20.0.jar",
+      "SPDXID": "SPDXRef-File-162992f236b5909d",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "6a671d1c456a875ff61abec63216f754078bb0ed"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "opt/restheart/plugins/lib/commons-collections-3.2.2.jar",
+      "SPDXID": "SPDXRef-File-89db6f7d3af39288",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "8ad72fe39fa8c91eaaf12aadb21e0c3661fe26d5"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "opt/restheart/plugins/lib/commons-digester-2.1.jar",
+      "SPDXID": "SPDXRef-File-415dbec1acf1cc60",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "73a8001e7a54a255eef0f03521ec1805dc738ca0"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "opt/restheart/plugins/lib/commons-io-2.20.0.jar",
+      "SPDXID": "SPDXRef-File-8fd505547ae0838a",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "36f3474daec2849c149e877614e7f979b2082cd2"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "opt/restheart/plugins/lib/commons-logging-1.2.jar",
+      "SPDXID": "SPDXRef-File-3f2068779326f2aa",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "4bfc12adfe4842bf07b657f0369c4cb522955686"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "opt/restheart/plugins/lib/commons-validator-1.7.jar",
+      "SPDXID": "SPDXRef-File-8e4c5bb0047aedae",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "76069c915de3787f3ddd8726a56f47a95bfcbb0e"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "opt/restheart/plugins/lib/graphql-java-21.5.jar",
+      "SPDXID": "SPDXRef-File-ea21078e0e4063f7",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "27989052936801c6fcfdeaf6a65e1f1d95152e57"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "opt/restheart/plugins/lib/graphql-java-21.5.jar",
+      "SPDXID": "SPDXRef-File-ea21078e0e4063f7",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "27989052936801c6fcfdeaf6a65e1f1d95152e57"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "opt/restheart/plugins/lib/graphql-java-21.5.jar",
+      "SPDXID": "SPDXRef-File-ea21078e0e4063f7",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "27989052936801c6fcfdeaf6a65e1f1d95152e57"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "opt/restheart/plugins/lib/handy-uri-templates-2.1.8.jar",
+      "SPDXID": "SPDXRef-File-bebe860f7a32ba9d",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "170102d8e1d6fcc5e8f9bef45de923285dd3a80f"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "opt/restheart/plugins/lib/icu4j-25.0.2.jar",
+      "SPDXID": "SPDXRef-File-637a89c9f394ec8d",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "cadb4d511905a20f2dc0b61320e43736a49e1dfd"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "opt/restheart/plugins/lib/jBCrypt-0.4.3.jar",
+      "SPDXID": "SPDXRef-File-c15b9ee056e08496",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "af4402e453e61c2eeb40f12df5f1c1225c135652"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "opt/restheart/plugins/lib/jackson-annotations-2.21.jar",
+      "SPDXID": "SPDXRef-File-580e0a2bf5630194",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "b1bc1868bf02dc0bd6c7836257a036a331005309"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "opt/restheart/plugins/lib/jackson-core-2.21.0.jar",
+      "SPDXID": "SPDXRef-File-5431206270159ad",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "1f7c3f82e6e2ef5def0a12d7dd754e26f0c0ae28"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "opt/restheart/plugins/lib/jackson-databind-2.21.0.jar",
+      "SPDXID": "SPDXRef-File-335f21e7a34b5c89",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "a6b96ee168ca8734a293b6dc70acd5d495119521"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "opt/restheart/plugins/lib/java-dataloader-3.2.1.jar",
+      "SPDXID": "SPDXRef-File-b2a090b8864a7359",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "58589bd3fcdb39b2b59674a0ec615242a8113b9c"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "opt/restheart/plugins/lib/java-jwt-4.5.1.jar",
+      "SPDXID": "SPDXRef-File-be2c70f5c0a6e2bb",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "28cd15646d33abc2f0f6e3e6877050f37be163cb"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "opt/restheart/plugins/lib/joda-time-2.10.2.jar",
+      "SPDXID": "SPDXRef-File-ef20ee7ac01ffb2c",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "a079fc39ccc3de02acdeb7117443e5d9bd431687"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "opt/restheart/plugins/lib/js-language-25.0.2.jar",
+      "SPDXID": "SPDXRef-File-d4be41d99cd4ed14",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "1bab7bfeb0e853b22e01c170c5910ec3fed64bd7"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "opt/restheart/plugins/lib/json-20250517.jar",
+      "SPDXID": "SPDXRef-File-1af8f34d128946e9",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "d67181bbd819ccceb929b580a4e2fcb0c8b17cd8"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "opt/restheart/plugins/lib/metrics-jvm-4.2.38.jar",
+      "SPDXID": "SPDXRef-File-4735eb3eab7c58c5",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "fb22c349d1b7e525ae875599516685eb072662e4"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "opt/restheart/plugins/lib/org.everit.json.schema-1.14.4.jar",
+      "SPDXID": "SPDXRef-File-db598052467df7c7",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "9ad144df7fe5be85cc8c6b68500b883b24ba8902"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "opt/restheart/plugins/lib/polyglot-25.0.2.jar",
+      "SPDXID": "SPDXRef-File-a762f60728b354dc",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "ae7722e14f72efac7172bf66d92c3fd9266ed151"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "opt/restheart/plugins/lib/re2j-1.6.jar",
+      "SPDXID": "SPDXRef-File-c71f7cd27fe91c75",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "a13e879fd7971738d06020fefeb108cc14e14169"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "opt/restheart/plugins/lib/reactive-streams-1.0.3.jar",
+      "SPDXID": "SPDXRef-File-1d4570da5c19b8b4",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "d9fb7a7926ffa635b3dcaa5049fb2bfa25b3e7d0"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "opt/restheart/plugins/lib/regex-25.0.2.jar",
+      "SPDXID": "SPDXRef-File-87605d5bafd4567",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "d9139554e05fbe619028745419850198249d0b24"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "opt/restheart/plugins/lib/simpleclient-0.16.0.jar",
+      "SPDXID": "SPDXRef-File-8361c4600711acf7",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "28b0eaf7c500c506976da8d0fc9cad6c278e8d87"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "opt/restheart/plugins/lib/simpleclient_common-0.16.0.jar",
+      "SPDXID": "SPDXRef-File-8d0e96c35e36aa3b",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "a09a8c790a20309b942a9fdbfe77da22407096e6"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "opt/restheart/plugins/lib/simpleclient_dropwizard-0.16.0.jar",
+      "SPDXID": "SPDXRef-File-b11f41868177c64",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "366c95e25c514fbd8eb8e3d1cceb99f28592f687"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "opt/restheart/plugins/lib/simpleclient_tracer_common-0.16.0.jar",
+      "SPDXID": "SPDXRef-File-6569c25490aa42b",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "dec00ef7c6155c4ca1109ec8248f7ff58d8f6cd3"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "opt/restheart/plugins/lib/simpleclient_tracer_otel-0.16.0.jar",
+      "SPDXID": "SPDXRef-File-a1db28f6943c9340",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "cc3d2b7b7cb6f077e3b1ee1d3e99eb54fddfa151"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "opt/restheart/plugins/lib/simpleclient_tracer_otel_agent-0.16.0.jar",
+      "SPDXID": "SPDXRef-File-e26b38d815f219c6",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "009d724771e339ff7ec6cd7c0cc170d3470904c5"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "opt/restheart/plugins/lib/tika-core-3.2.3.jar",
+      "SPDXID": "SPDXRef-File-1a75bfdf62e9a984",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "4b1b82f8cce72c9bd3676532c8b613e24041d96c"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "opt/restheart/plugins/lib/truffle-api-25.0.2.jar",
+      "SPDXID": "SPDXRef-File-d0e67c438eac9657",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "50b987c8860bd113be3c24e0e3e473c41467618f"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "opt/restheart/plugins/lib/xz-25.0.2.jar",
+      "SPDXID": "SPDXRef-File-a412f40e14c839e4",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "3a62dce96f476ff431800ec61d1807fd83c7c77b"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "opt/restheart/plugins/lib/zxcvbn-1.9.0.jar",
+      "SPDXID": "SPDXRef-File-1f2b2411ace4c316",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "47e0b80099d6109ef199072aaab326325aca5e44"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "opt/restheart/plugins/restheart-graphql.jar",
+      "SPDXID": "SPDXRef-File-c695714ae2cb6388",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "708afa550fdfe50b88274d92d293fabcc9afdc1b"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "opt/restheart/plugins/restheart-metrics.jar",
+      "SPDXID": "SPDXRef-File-b6adb0f8b2b34498",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "f148853550bab7f84d9c4c1703ee0adc027b9a87"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "opt/restheart/plugins/restheart-mongoclient-provider.jar",
+      "SPDXID": "SPDXRef-File-61fe4d8b486cb01e",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "743192d7379e9acaf34ac57fb33b64a85f7cdcd9"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "opt/restheart/plugins/restheart-mongodb.jar",
+      "SPDXID": "SPDXRef-File-ba2e1adc49a85be1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "4bd0760fdefc9a042d8202dda8b517742b613ba1"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "opt/restheart/plugins/restheart-polyglot.jar",
+      "SPDXID": "SPDXRef-File-ec2851a64c3181c9",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "e2e9a59ab4ac8a6b1b5d9237eb0c8b240b7dc139"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "opt/restheart/plugins/restheart-security.jar",
+      "SPDXID": "SPDXRef-File-fb11521323e56711",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "21f6a3824298a9057dc23704f9190728674d21f7"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "opt/restheart/restheart.jar",
+      "SPDXID": "SPDXRef-File-ada020a881efc4dd",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "d08c918c1092509ad359b39736ae5f7b9de044b0"
+        }
+      ],
+      "copyrightText": ""
+    }
+  ],
+  "hasExtractedLicensingInfos": [
+    {
+      "licenseId": "LicenseRef-50928525ea117d4d",
+      "extractedText": "This component is licensed under \"ad-hoc\"",
+      "name": "ad-hoc"
+    },
+    {
+      "licenseId": "LicenseRef-abb60753a4b5686d",
+      "extractedText": "This component is licensed under \"public-domain\"",
+      "name": "public-domain"
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-ContainerImage-29a3e3cdbe6dd994",
+      "relatedSpdxElement": "SPDXRef-OperatingSystem-8e46ab1f7397f662",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-ContainerImage-29a3e3cdbe6dd994",
+      "relatedSpdxElement": "SPDXRef-Package-10a2dfcecc7ea70d",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-ContainerImage-29a3e3cdbe6dd994",
+      "relatedSpdxElement": "SPDXRef-Package-15465dc2e6f7588e",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-ContainerImage-29a3e3cdbe6dd994",
+      "relatedSpdxElement": "SPDXRef-Package-15881b483eb0ce83",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-ContainerImage-29a3e3cdbe6dd994",
+      "relatedSpdxElement": "SPDXRef-Package-1618dbbc558e095b",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-ContainerImage-29a3e3cdbe6dd994",
+      "relatedSpdxElement": "SPDXRef-Package-17449db83b205c7d",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-ContainerImage-29a3e3cdbe6dd994",
+      "relatedSpdxElement": "SPDXRef-Package-181225fb1bca2140",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-ContainerImage-29a3e3cdbe6dd994",
+      "relatedSpdxElement": "SPDXRef-Package-1936e07626b8ade7",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-ContainerImage-29a3e3cdbe6dd994",
+      "relatedSpdxElement": "SPDXRef-Package-1b11191eb95eb2c9",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-ContainerImage-29a3e3cdbe6dd994",
+      "relatedSpdxElement": "SPDXRef-Package-1d055e8b4af573a1",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-ContainerImage-29a3e3cdbe6dd994",
+      "relatedSpdxElement": "SPDXRef-Package-1f9fd68e89a62628",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-ContainerImage-29a3e3cdbe6dd994",
+      "relatedSpdxElement": "SPDXRef-Package-210959f0f7a4db7d",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-ContainerImage-29a3e3cdbe6dd994",
+      "relatedSpdxElement": "SPDXRef-Package-2318c544acc83479",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-ContainerImage-29a3e3cdbe6dd994",
+      "relatedSpdxElement": "SPDXRef-Package-24243ca26342cfaa",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-ContainerImage-29a3e3cdbe6dd994",
+      "relatedSpdxElement": "SPDXRef-Package-2575eb3c3fe990c1",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-ContainerImage-29a3e3cdbe6dd994",
+      "relatedSpdxElement": "SPDXRef-Package-2caf2496526d6061",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-ContainerImage-29a3e3cdbe6dd994",
+      "relatedSpdxElement": "SPDXRef-Package-2d98a18509c12f26",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-ContainerImage-29a3e3cdbe6dd994",
+      "relatedSpdxElement": "SPDXRef-Package-33074e94fcdc60d4",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-ContainerImage-29a3e3cdbe6dd994",
+      "relatedSpdxElement": "SPDXRef-Package-348df8ce68d12c1a",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-ContainerImage-29a3e3cdbe6dd994",
+      "relatedSpdxElement": "SPDXRef-Package-3758ba664f734665",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-ContainerImage-29a3e3cdbe6dd994",
+      "relatedSpdxElement": "SPDXRef-Package-3de53f2a3edb53f8",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-ContainerImage-29a3e3cdbe6dd994",
+      "relatedSpdxElement": "SPDXRef-Package-3e3f374787d06942",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-ContainerImage-29a3e3cdbe6dd994",
+      "relatedSpdxElement": "SPDXRef-Package-45464590961da731",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-ContainerImage-29a3e3cdbe6dd994",
+      "relatedSpdxElement": "SPDXRef-Package-45fe3dfce89d7d40",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-ContainerImage-29a3e3cdbe6dd994",
+      "relatedSpdxElement": "SPDXRef-Package-486c60b1701d9686",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-ContainerImage-29a3e3cdbe6dd994",
+      "relatedSpdxElement": "SPDXRef-Package-545642daed27c7",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-ContainerImage-29a3e3cdbe6dd994",
+      "relatedSpdxElement": "SPDXRef-Package-5469dc6adddce3a1",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-ContainerImage-29a3e3cdbe6dd994",
+      "relatedSpdxElement": "SPDXRef-Package-5ae4f83b81b55e89",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-ContainerImage-29a3e3cdbe6dd994",
+      "relatedSpdxElement": "SPDXRef-Package-5f7745c5d9601a09",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-ContainerImage-29a3e3cdbe6dd994",
+      "relatedSpdxElement": "SPDXRef-Package-61404c5ed9c5dc2e",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-ContainerImage-29a3e3cdbe6dd994",
+      "relatedSpdxElement": "SPDXRef-Package-623da7ca21f36bd",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-ContainerImage-29a3e3cdbe6dd994",
+      "relatedSpdxElement": "SPDXRef-Package-6860669144602eb4",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-ContainerImage-29a3e3cdbe6dd994",
+      "relatedSpdxElement": "SPDXRef-Package-69dd06223ba26704",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-ContainerImage-29a3e3cdbe6dd994",
+      "relatedSpdxElement": "SPDXRef-Package-70e5302535414d3a",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-ContainerImage-29a3e3cdbe6dd994",
+      "relatedSpdxElement": "SPDXRef-Package-722eee587c761309",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-ContainerImage-29a3e3cdbe6dd994",
+      "relatedSpdxElement": "SPDXRef-Package-78d79c81846cfeec",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-ContainerImage-29a3e3cdbe6dd994",
+      "relatedSpdxElement": "SPDXRef-Package-7b7cd1a06cb05475",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-ContainerImage-29a3e3cdbe6dd994",
+      "relatedSpdxElement": "SPDXRef-Package-7dc0a4f5e2e2bb",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-ContainerImage-29a3e3cdbe6dd994",
+      "relatedSpdxElement": "SPDXRef-Package-7df91cfe7a872b26",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-ContainerImage-29a3e3cdbe6dd994",
+      "relatedSpdxElement": "SPDXRef-Package-800bd82271cc580e",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-ContainerImage-29a3e3cdbe6dd994",
+      "relatedSpdxElement": "SPDXRef-Package-85a18c2b05525378",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-ContainerImage-29a3e3cdbe6dd994",
+      "relatedSpdxElement": "SPDXRef-Package-92d94046aaac6ef9",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-ContainerImage-29a3e3cdbe6dd994",
+      "relatedSpdxElement": "SPDXRef-Package-9472a1ea956adf69",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-ContainerImage-29a3e3cdbe6dd994",
+      "relatedSpdxElement": "SPDXRef-Package-969991adb376ee40",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-ContainerImage-29a3e3cdbe6dd994",
+      "relatedSpdxElement": "SPDXRef-Package-99afb54ae2377b1e",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-ContainerImage-29a3e3cdbe6dd994",
+      "relatedSpdxElement": "SPDXRef-Package-9a1e3a3dabe8870",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-ContainerImage-29a3e3cdbe6dd994",
+      "relatedSpdxElement": "SPDXRef-Package-9b27c3ef869dde10",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-ContainerImage-29a3e3cdbe6dd994",
+      "relatedSpdxElement": "SPDXRef-Package-9c8ff377a249d4c9",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-ContainerImage-29a3e3cdbe6dd994",
+      "relatedSpdxElement": "SPDXRef-Package-9da3ee7fbd111efe",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-ContainerImage-29a3e3cdbe6dd994",
+      "relatedSpdxElement": "SPDXRef-Package-a265535b7e0adf96",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-ContainerImage-29a3e3cdbe6dd994",
+      "relatedSpdxElement": "SPDXRef-Package-a48dca570256dea3",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-ContainerImage-29a3e3cdbe6dd994",
+      "relatedSpdxElement": "SPDXRef-Package-a9449f03398d2bd4",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-ContainerImage-29a3e3cdbe6dd994",
+      "relatedSpdxElement": "SPDXRef-Package-acbba9aba51af1fa",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-ContainerImage-29a3e3cdbe6dd994",
+      "relatedSpdxElement": "SPDXRef-Package-b08e55ad80cfdfe8",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-ContainerImage-29a3e3cdbe6dd994",
+      "relatedSpdxElement": "SPDXRef-Package-b1635840365f27f3",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-ContainerImage-29a3e3cdbe6dd994",
+      "relatedSpdxElement": "SPDXRef-Package-b3c877e9fa0ab676",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-ContainerImage-29a3e3cdbe6dd994",
+      "relatedSpdxElement": "SPDXRef-Package-b4372db51e59aaa2",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-ContainerImage-29a3e3cdbe6dd994",
+      "relatedSpdxElement": "SPDXRef-Package-b46285d1a74cba29",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-ContainerImage-29a3e3cdbe6dd994",
+      "relatedSpdxElement": "SPDXRef-Package-bb05e53a2fd1a9f6",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-ContainerImage-29a3e3cdbe6dd994",
+      "relatedSpdxElement": "SPDXRef-Package-bb9cd120d54c1fc",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-ContainerImage-29a3e3cdbe6dd994",
+      "relatedSpdxElement": "SPDXRef-Package-c2c6f2ddaa17eef",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-ContainerImage-29a3e3cdbe6dd994",
+      "relatedSpdxElement": "SPDXRef-Package-c6152c43abe0991f",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-ContainerImage-29a3e3cdbe6dd994",
+      "relatedSpdxElement": "SPDXRef-Package-ca425274ca9b8837",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-ContainerImage-29a3e3cdbe6dd994",
+      "relatedSpdxElement": "SPDXRef-Package-cb593fcdf728de1d",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-ContainerImage-29a3e3cdbe6dd994",
+      "relatedSpdxElement": "SPDXRef-Package-cc347a512d5fc579",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-ContainerImage-29a3e3cdbe6dd994",
+      "relatedSpdxElement": "SPDXRef-Package-ce4564191ebdf83e",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-ContainerImage-29a3e3cdbe6dd994",
+      "relatedSpdxElement": "SPDXRef-Package-cf308e01029c2c71",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-ContainerImage-29a3e3cdbe6dd994",
+      "relatedSpdxElement": "SPDXRef-Package-d0b2b8cc4f329cd6",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-ContainerImage-29a3e3cdbe6dd994",
+      "relatedSpdxElement": "SPDXRef-Package-d6b2a4924dd84ded",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-ContainerImage-29a3e3cdbe6dd994",
+      "relatedSpdxElement": "SPDXRef-Package-d95cda8d8fa66a3c",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-ContainerImage-29a3e3cdbe6dd994",
+      "relatedSpdxElement": "SPDXRef-Package-dcbaf59cf4fb8da2",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-ContainerImage-29a3e3cdbe6dd994",
+      "relatedSpdxElement": "SPDXRef-Package-dde28e39d5e9d510",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-ContainerImage-29a3e3cdbe6dd994",
+      "relatedSpdxElement": "SPDXRef-Package-dea97c2e30abf6d4",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-ContainerImage-29a3e3cdbe6dd994",
+      "relatedSpdxElement": "SPDXRef-Package-e3b1ac131252fc1b",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-ContainerImage-29a3e3cdbe6dd994",
+      "relatedSpdxElement": "SPDXRef-Package-e4be7b5d9d238b62",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-ContainerImage-29a3e3cdbe6dd994",
+      "relatedSpdxElement": "SPDXRef-Package-e60934f08e57e374",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-ContainerImage-29a3e3cdbe6dd994",
+      "relatedSpdxElement": "SPDXRef-Package-e77631a75b2cdf64",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-ContainerImage-29a3e3cdbe6dd994",
+      "relatedSpdxElement": "SPDXRef-Package-f1d3df84666f58e5",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-ContainerImage-29a3e3cdbe6dd994",
+      "relatedSpdxElement": "SPDXRef-Package-f4a5515b23112ac8",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-ContainerImage-29a3e3cdbe6dd994",
+      "relatedSpdxElement": "SPDXRef-Package-f8c038076f94c4ca",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-ContainerImage-29a3e3cdbe6dd994",
+      "relatedSpdxElement": "SPDXRef-Package-faee357bda934e9a",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-ContainerImage-29a3e3cdbe6dd994",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-OperatingSystem-8e46ab1f7397f662",
+      "relatedSpdxElement": "SPDXRef-Package-25053c0ea26894dc",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-OperatingSystem-8e46ab1f7397f662",
+      "relatedSpdxElement": "SPDXRef-Package-71fb848f1e2a846",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-OperatingSystem-8e46ab1f7397f662",
+      "relatedSpdxElement": "SPDXRef-Package-8721822ea202249e",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-OperatingSystem-8e46ab1f7397f662",
+      "relatedSpdxElement": "SPDXRef-Package-a07096950dc1cdc8",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-OperatingSystem-8e46ab1f7397f662",
+      "relatedSpdxElement": "SPDXRef-Package-bde1e25ba758f5ce",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-OperatingSystem-8e46ab1f7397f662",
+      "relatedSpdxElement": "SPDXRef-Package-ee5e72c0fcdf493a",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-10a2dfcecc7ea70d",
+      "relatedSpdxElement": "SPDXRef-File-c695714ae2cb6388",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-15465dc2e6f7588e",
+      "relatedSpdxElement": "SPDXRef-File-a1db28f6943c9340",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-15881b483eb0ce83",
+      "relatedSpdxElement": "SPDXRef-File-8e4c5bb0047aedae",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-1618dbbc558e095b",
+      "relatedSpdxElement": "SPDXRef-File-ef94d55c4c07b8da",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-17449db83b205c7d",
+      "relatedSpdxElement": "SPDXRef-File-e5ef078243e07d0f",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-181225fb1bca2140",
+      "relatedSpdxElement": "SPDXRef-File-5431206270159ad",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-1936e07626b8ade7",
+      "relatedSpdxElement": "SPDXRef-File-335f21e7a34b5c89",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-1b11191eb95eb2c9",
+      "relatedSpdxElement": "SPDXRef-File-b11f41868177c64",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-1d055e8b4af573a1",
+      "relatedSpdxElement": "SPDXRef-File-1d4570da5c19b8b4",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-1f9fd68e89a62628",
+      "relatedSpdxElement": "SPDXRef-File-b6adb0f8b2b34498",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-210959f0f7a4db7d",
+      "relatedSpdxElement": "SPDXRef-File-fb11521323e56711",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-2318c544acc83479",
+      "relatedSpdxElement": "SPDXRef-File-dae7b48bce2052d5",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-24243ca26342cfaa",
+      "relatedSpdxElement": "SPDXRef-File-bcc585aac06f0d6b",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-2575eb3c3fe990c1",
+      "relatedSpdxElement": "SPDXRef-File-ee8a47306a39b3bc",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-2caf2496526d6061",
+      "relatedSpdxElement": "SPDXRef-File-87605d5bafd4567",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-2d98a18509c12f26",
+      "relatedSpdxElement": "SPDXRef-File-89db6f7d3af39288",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-33074e94fcdc60d4",
+      "relatedSpdxElement": "SPDXRef-File-4301646bdbfb8f83",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-348df8ce68d12c1a",
+      "relatedSpdxElement": "SPDXRef-File-1a75bfdf62e9a984",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-3758ba664f734665",
+      "relatedSpdxElement": "SPDXRef-File-637a89c9f394ec8d",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-3de53f2a3edb53f8",
+      "relatedSpdxElement": "SPDXRef-File-ec2851a64c3181c9",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-3e3f374787d06942",
+      "relatedSpdxElement": "SPDXRef-File-1ff96e8709d8d675",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-45464590961da731",
+      "relatedSpdxElement": "SPDXRef-File-f5f3024790c3c33f",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-45fe3dfce89d7d40",
+      "relatedSpdxElement": "SPDXRef-File-8361c4600711acf7",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-486c60b1701d9686",
+      "relatedSpdxElement": "SPDXRef-File-ef20ee7ac01ffb2c",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-545642daed27c7",
+      "relatedSpdxElement": "SPDXRef-File-9579de5ff6ec76fc",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-5469dc6adddce3a1",
+      "relatedSpdxElement": "SPDXRef-File-162992f236b5909d",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-5ae4f83b81b55e89",
+      "relatedSpdxElement": "SPDXRef-File-258a2a01f75a4241",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-5f7745c5d9601a09",
+      "relatedSpdxElement": "SPDXRef-File-3d908c2f5d210ba1",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-61404c5ed9c5dc2e",
+      "relatedSpdxElement": "SPDXRef-File-d4be41d99cd4ed14",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-623da7ca21f36bd",
+      "relatedSpdxElement": "SPDXRef-File-5d2860d5858aa01e",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-6860669144602eb4",
+      "relatedSpdxElement": "SPDXRef-File-8fd505547ae0838a",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-69dd06223ba26704",
+      "relatedSpdxElement": "SPDXRef-File-27d7d9215326c075",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-70e5302535414d3a",
+      "relatedSpdxElement": "SPDXRef-File-a5c5e8e8ed93ce60",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-722eee587c761309",
+      "relatedSpdxElement": "SPDXRef-File-ec26ff4aa3f7a3cb",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-78d79c81846cfeec",
+      "relatedSpdxElement": "SPDXRef-File-ea21078e0e4063f7",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-7b7cd1a06cb05475",
+      "relatedSpdxElement": "SPDXRef-File-415dbec1acf1cc60",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-7dc0a4f5e2e2bb",
+      "relatedSpdxElement": "SPDXRef-File-fcc9c4efa915f409",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-7df91cfe7a872b26",
+      "relatedSpdxElement": "SPDXRef-File-ea21078e0e4063f7",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-800bd82271cc580e",
+      "relatedSpdxElement": "SPDXRef-File-7492ab1c223dcc17",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-85a18c2b05525378",
+      "relatedSpdxElement": "SPDXRef-File-ada020a881efc4dd",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-92d94046aaac6ef9",
+      "relatedSpdxElement": "SPDXRef-File-ab83550c2d297e61",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-9472a1ea956adf69",
+      "relatedSpdxElement": "SPDXRef-File-ea21078e0e4063f7",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-969991adb376ee40",
+      "relatedSpdxElement": "SPDXRef-File-be2c70f5c0a6e2bb",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-99afb54ae2377b1e",
+      "relatedSpdxElement": "SPDXRef-File-6569c25490aa42b",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-9a1e3a3dabe8870",
+      "relatedSpdxElement": "SPDXRef-File-aaa78b42cd21502e",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-9b27c3ef869dde10",
+      "relatedSpdxElement": "SPDXRef-File-6cba27730ff7c08e",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-9c8ff377a249d4c9",
+      "relatedSpdxElement": "SPDXRef-File-ad8a01dcce4676aa",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-9da3ee7fbd111efe",
+      "relatedSpdxElement": "SPDXRef-File-db598052467df7c7",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-a265535b7e0adf96",
+      "relatedSpdxElement": "SPDXRef-File-bf6f6c5a4f37f8cb",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-a48dca570256dea3",
+      "relatedSpdxElement": "SPDXRef-File-c527fb19d73cf7df",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-a9449f03398d2bd4",
+      "relatedSpdxElement": "SPDXRef-File-1b73242daf1db1dd",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-acbba9aba51af1fa",
+      "relatedSpdxElement": "SPDXRef-File-90111607895518f5",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-b08e55ad80cfdfe8",
+      "relatedSpdxElement": "SPDXRef-File-bebe860f7a32ba9d",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-b1635840365f27f3",
+      "relatedSpdxElement": "SPDXRef-File-1af8f34d128946e9",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-b3c877e9fa0ab676",
+      "relatedSpdxElement": "SPDXRef-File-d7a95aaa365d9a33",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-b4372db51e59aaa2",
+      "relatedSpdxElement": "SPDXRef-File-ea1a19583b16f64e",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-b46285d1a74cba29",
+      "relatedSpdxElement": "SPDXRef-File-3176dd19a29798c7",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bb05e53a2fd1a9f6",
+      "relatedSpdxElement": "SPDXRef-File-3f2068779326f2aa",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bb9cd120d54c1fc",
+      "relatedSpdxElement": "SPDXRef-File-ca9cfb2c44249bf2",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-c2c6f2ddaa17eef",
+      "relatedSpdxElement": "SPDXRef-File-61fe4d8b486cb01e",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-c6152c43abe0991f",
+      "relatedSpdxElement": "SPDXRef-File-d307c6dd5b29110e",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-ca425274ca9b8837",
+      "relatedSpdxElement": "SPDXRef-File-ba2e1adc49a85be1",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-cb593fcdf728de1d",
+      "relatedSpdxElement": "SPDXRef-File-1f2b2411ace4c316",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-cc347a512d5fc579",
+      "relatedSpdxElement": "SPDXRef-File-a762f60728b354dc",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-ce4564191ebdf83e",
+      "relatedSpdxElement": "SPDXRef-File-4735eb3eab7c58c5",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-cf308e01029c2c71",
+      "relatedSpdxElement": "SPDXRef-File-c15b9ee056e08496",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-d0b2b8cc4f329cd6",
+      "relatedSpdxElement": "SPDXRef-File-aa929a9d4bdf7fba",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-d6b2a4924dd84ded",
+      "relatedSpdxElement": "SPDXRef-File-e26b38d815f219c6",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-d95cda8d8fa66a3c",
+      "relatedSpdxElement": "SPDXRef-File-d0e67c438eac9657",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-dcbaf59cf4fb8da2",
+      "relatedSpdxElement": "SPDXRef-File-a412f40e14c839e4",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-dde28e39d5e9d510",
+      "relatedSpdxElement": "SPDXRef-File-a5953a195e23ca89",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-dea97c2e30abf6d4",
+      "relatedSpdxElement": "SPDXRef-File-48a09de06a3f2cf3",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-e3b1ac131252fc1b",
+      "relatedSpdxElement": "SPDXRef-File-8d0e96c35e36aa3b",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-e4be7b5d9d238b62",
+      "relatedSpdxElement": "SPDXRef-File-e39fab8ba82ac0f9",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-e60934f08e57e374",
+      "relatedSpdxElement": "SPDXRef-File-580e0a2bf5630194",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-e77631a75b2cdf64",
+      "relatedSpdxElement": "SPDXRef-File-b2a090b8864a7359",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-f1d3df84666f58e5",
+      "relatedSpdxElement": "SPDXRef-File-d698d2b7e1d75ee8",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-f4a5515b23112ac8",
+      "relatedSpdxElement": "SPDXRef-File-e3fed664742f3e06",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-f8c038076f94c4ca",
+      "relatedSpdxElement": "SPDXRef-File-c71f7cd27fe91c75",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-faee357bda934e9a",
+      "relatedSpdxElement": "SPDXRef-File-12df2db79675a0d9",
+      "relationshipType": "CONTAINS"
+    }
+  ]
+}

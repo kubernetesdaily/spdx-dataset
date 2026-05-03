@@ -34,12 +34,10 @@ def generate_syft_sbom(image, digest, output_filename):
         result = subprocess.run(
             [
                 "syft",
-                "packages",
-                "-o",
-                "spdx-json",
-                "--file",
-                output_filename,
+                "scan",
                 f"registry:{image}@{digest}",
+                "-o",
+                f"spdx-json={output_filename}",
             ],
             stdout=subprocess.PIPE,
             stderr=subprocess.STDOUT,
@@ -232,7 +230,7 @@ if __name__ == "__main__":
 
     # read in list of most popular dockerhub images
     images = []
-    csv_path = SCRIPT_DIR.parent / "most-popular-dockerhub-images.csv"
+    csv_path = SCRIPT_DIR / "most-popular-dockerhub-images.csv"
     
     if not csv_path.exists():
         logging.error(f"CSV file not found at {csv_path}")

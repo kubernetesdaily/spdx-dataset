@@ -1,0 +1,3587 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "pravega/zookeeper-operator@sha256:b2bc4042fdd8fea6613b04f2f602ba4aff1201e79ba35cd0e2df9f3327111b0e",
+  "documentNamespace": "http://trivy.dev/container_image/pravega/zookeeper-operator@sha256:b2bc4042fdd8fea6613b04f2f602ba4aff1201e79ba35cd0e2df9f3327111b0e-e5bcb13f-268a-4910-b096-7bfac15520ab",
+  "creationInfo": {
+    "creators": [
+      "Organization: aquasecurity",
+      "Tool: trivy-0.70.0"
+    ],
+    "created": "2026-05-03T17:43:37Z"
+  },
+  "packages": [
+    {
+      "name": "usr/local/bin/zookeeper-operator",
+      "SPDXID": "SPDXRef-Application-5ab75f8d8712bcf5",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "primaryPackagePurpose": "APPLICATION",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "Class: lang-pkgs"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "Type: gobinary"
+        }
+      ]
+    },
+    {
+      "name": "pravega/zookeeper-operator@sha256:b2bc4042fdd8fea6613b04f2f602ba4aff1201e79ba35cd0e2df9f3327111b0e",
+      "SPDXID": "SPDXRef-ContainerImage-aba32c148e9cd7b9",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:oci/zookeeper-operator@sha256:b2bc4042fdd8fea6613b04f2f602ba4aff1201e79ba35cd0e2df9f3327111b0e?arch=amd64\u0026repository_url=index.docker.io%2Fpravega%2Fzookeeper-operator"
+        }
+      ],
+      "primaryPackagePurpose": "CONTAINER",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "DiffID: sha256:1a73b54f556b477f0a8b939d13c504a3b4f4db71f7a09c63afbc10acb3de5849"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "DiffID: sha256:399826b51fcf6c959b7a7e86b89ac1ee6685d64da54e5223e1d182c491a1bbd6"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "DiffID: sha256:4cb10dd2545bd173858450b80853b850e49608260f1a0789e0d0b39edf12f500"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "DiffID: sha256:6fbdf253bbc2490dcfede5bdb58ca0db63ee8aff565f6ea9f918f3bce9e2d5aa"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "DiffID: sha256:cd62463e95010a0df9d99d3e33c5a7018abf463fa9007f89e4ec75a8194b88bc"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "DiffID: sha256:d0157aa0c95a4cae128dab97d699b2f303c8bea46914dc4a40722411f50bb40e"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "DiffID: sha256:d2d7ec0f6756eb51cf1602c6f8ac4dd811d3d052661142e0110357bf0b581457"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "DiffID: sha256:d52f02c6501c9c4410568f0bf6ff30d30d8290f57794c308fe36ea78393afac2"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "DiffID: sha256:e624a5370eca2b8266e74d179326e2a8767d361db14d13edd9fb57e408731784"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "DiffID: sha256:ff5700ec54186528cbae40f54c24b1a34fb7c01527beaa1232868c16e2353f52"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "ImageID: sha256:fc02cd0ade65edbec5ea9351b8210c812b0b368408912bd94148e8155f56f99b"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "Reference: pravega/zookeeper-operator@sha256:b2bc4042fdd8fea6613b04f2f602ba4aff1201e79ba35cd0e2df9f3327111b0e"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "RepoDigest: pravega/zookeeper-operator@sha256:b2bc4042fdd8fea6613b04f2f602ba4aff1201e79ba35cd0e2df9f3327111b0e"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "SchemaVersion: 2"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "Size: 51615744"
+        }
+      ]
+    },
+    {
+      "name": "base-files",
+      "SPDXID": "SPDXRef-Package-bc0d1e9659909d75",
+      "versionInfo": "11.1+deb11u6",
+      "supplier": "Organization: Santiago Vila \u003csanvila@debian.org\u003e",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "built package from: base-files 11.1+deb11u6",
+      "licenseConcluded": "GPL-2.0-or-later",
+      "licenseDeclared": "GPL-2.0-or-later",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:deb/debian/base-files@11.1%2Bdeb11u6?arch=amd64\u0026distro=debian-11.6"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:d0157aa0c95a4cae128dab97d699b2f303c8bea46914dc4a40722411f50bb40e"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:f1be57a16127443b251b3362bfbc517e5c55f2a836b9ee28c1b667b75a28cc6a"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: base-files@11.1+deb11u6"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: debian"
+        }
+      ]
+    },
+    {
+      "name": "cloud.google.com/go/compute",
+      "SPDXID": "SPDXRef-Package-35778f664d9295bf",
+      "versionInfo": "v1.6.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/zookeeper-operator",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/cloud.google.com/go/compute@v1.6.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:cd62463e95010a0df9d99d3e33c5a7018abf463fa9007f89e4ec75a8194b88bc"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:4c4fee5cb156cb6e84a25b1e8aa1c98eda14cd520802b06f3abd0828d503ba9e"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: cloud.google.com/go/compute@v1.6.1"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gobinary"
+        }
+      ]
+    },
+    {
+      "name": "github.com/beorn7/perks",
+      "SPDXID": "SPDXRef-Package-f5cbd523dcf4b15f",
+      "versionInfo": "v1.0.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/zookeeper-operator",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/beorn7/perks@v1.0.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:cd62463e95010a0df9d99d3e33c5a7018abf463fa9007f89e4ec75a8194b88bc"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:4c4fee5cb156cb6e84a25b1e8aa1c98eda14cd520802b06f3abd0828d503ba9e"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: github.com/beorn7/perks@v1.0.1"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gobinary"
+        }
+      ]
+    },
+    {
+      "name": "github.com/cespare/xxhash/v2",
+      "SPDXID": "SPDXRef-Package-eedbbbd2d3a3dfcc",
+      "versionInfo": "v2.1.2",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/zookeeper-operator",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/cespare/xxhash/v2@v2.1.2"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:cd62463e95010a0df9d99d3e33c5a7018abf463fa9007f89e4ec75a8194b88bc"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:4c4fee5cb156cb6e84a25b1e8aa1c98eda14cd520802b06f3abd0828d503ba9e"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: github.com/cespare/xxhash/v2@v2.1.2"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gobinary"
+        }
+      ]
+    },
+    {
+      "name": "github.com/davecgh/go-spew",
+      "SPDXID": "SPDXRef-Package-294c0a34ec9387c7",
+      "versionInfo": "v1.1.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/zookeeper-operator",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/davecgh/go-spew@v1.1.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:cd62463e95010a0df9d99d3e33c5a7018abf463fa9007f89e4ec75a8194b88bc"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:4c4fee5cb156cb6e84a25b1e8aa1c98eda14cd520802b06f3abd0828d503ba9e"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: github.com/davecgh/go-spew@v1.1.1"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gobinary"
+        }
+      ]
+    },
+    {
+      "name": "github.com/emicklei/go-restful",
+      "SPDXID": "SPDXRef-Package-e20dc65d6907ab39",
+      "versionInfo": "v2.16.0+incompatible",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/zookeeper-operator",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/emicklei/go-restful@v2.16.0%2Bincompatible"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:cd62463e95010a0df9d99d3e33c5a7018abf463fa9007f89e4ec75a8194b88bc"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:4c4fee5cb156cb6e84a25b1e8aa1c98eda14cd520802b06f3abd0828d503ba9e"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: github.com/emicklei/go-restful@v2.16.0+incompatible"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gobinary"
+        }
+      ]
+    },
+    {
+      "name": "github.com/evanphx/json-patch",
+      "SPDXID": "SPDXRef-Package-6b2333a8951c4b67",
+      "versionInfo": "v5.6.0+incompatible",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/zookeeper-operator",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/evanphx/json-patch@v5.6.0%2Bincompatible"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:cd62463e95010a0df9d99d3e33c5a7018abf463fa9007f89e4ec75a8194b88bc"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:4c4fee5cb156cb6e84a25b1e8aa1c98eda14cd520802b06f3abd0828d503ba9e"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: github.com/evanphx/json-patch@v5.6.0+incompatible"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gobinary"
+        }
+      ]
+    },
+    {
+      "name": "github.com/fsnotify/fsnotify",
+      "SPDXID": "SPDXRef-Package-1a504e0e56964c7e",
+      "versionInfo": "v1.5.4",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/zookeeper-operator",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/fsnotify/fsnotify@v1.5.4"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:cd62463e95010a0df9d99d3e33c5a7018abf463fa9007f89e4ec75a8194b88bc"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:4c4fee5cb156cb6e84a25b1e8aa1c98eda14cd520802b06f3abd0828d503ba9e"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: github.com/fsnotify/fsnotify@v1.5.4"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gobinary"
+        }
+      ]
+    },
+    {
+      "name": "github.com/ghodss/yaml",
+      "SPDXID": "SPDXRef-Package-30b2c41f1faa31a2",
+      "versionInfo": "v1.0.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/zookeeper-operator",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/ghodss/yaml@v1.0.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:cd62463e95010a0df9d99d3e33c5a7018abf463fa9007f89e4ec75a8194b88bc"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:4c4fee5cb156cb6e84a25b1e8aa1c98eda14cd520802b06f3abd0828d503ba9e"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: github.com/ghodss/yaml@v1.0.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gobinary"
+        }
+      ]
+    },
+    {
+      "name": "github.com/go-logr/logr",
+      "SPDXID": "SPDXRef-Package-5c6cdda673d1f79b",
+      "versionInfo": "v1.2.3",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/zookeeper-operator",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/go-logr/logr@v1.2.3"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:cd62463e95010a0df9d99d3e33c5a7018abf463fa9007f89e4ec75a8194b88bc"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:4c4fee5cb156cb6e84a25b1e8aa1c98eda14cd520802b06f3abd0828d503ba9e"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: github.com/go-logr/logr@v1.2.3"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gobinary"
+        }
+      ]
+    },
+    {
+      "name": "github.com/go-logr/zapr",
+      "SPDXID": "SPDXRef-Package-a068b541d6ed126d",
+      "versionInfo": "v1.2.3",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/zookeeper-operator",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/go-logr/zapr@v1.2.3"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:cd62463e95010a0df9d99d3e33c5a7018abf463fa9007f89e4ec75a8194b88bc"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:4c4fee5cb156cb6e84a25b1e8aa1c98eda14cd520802b06f3abd0828d503ba9e"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: github.com/go-logr/zapr@v1.2.3"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gobinary"
+        }
+      ]
+    },
+    {
+      "name": "github.com/go-openapi/jsonpointer",
+      "SPDXID": "SPDXRef-Package-203501632021e8b5",
+      "versionInfo": "v0.19.5",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/zookeeper-operator",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/go-openapi/jsonpointer@v0.19.5"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:cd62463e95010a0df9d99d3e33c5a7018abf463fa9007f89e4ec75a8194b88bc"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:4c4fee5cb156cb6e84a25b1e8aa1c98eda14cd520802b06f3abd0828d503ba9e"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: github.com/go-openapi/jsonpointer@v0.19.5"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gobinary"
+        }
+      ]
+    },
+    {
+      "name": "github.com/go-openapi/jsonreference",
+      "SPDXID": "SPDXRef-Package-aa9ae93599dfe652",
+      "versionInfo": "v0.20.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/zookeeper-operator",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/go-openapi/jsonreference@v0.20.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:cd62463e95010a0df9d99d3e33c5a7018abf463fa9007f89e4ec75a8194b88bc"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:4c4fee5cb156cb6e84a25b1e8aa1c98eda14cd520802b06f3abd0828d503ba9e"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: github.com/go-openapi/jsonreference@v0.20.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gobinary"
+        }
+      ]
+    },
+    {
+      "name": "github.com/go-openapi/swag",
+      "SPDXID": "SPDXRef-Package-1ca2c27b6cae93c4",
+      "versionInfo": "v0.21.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/zookeeper-operator",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/go-openapi/swag@v0.21.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:cd62463e95010a0df9d99d3e33c5a7018abf463fa9007f89e4ec75a8194b88bc"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:4c4fee5cb156cb6e84a25b1e8aa1c98eda14cd520802b06f3abd0828d503ba9e"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: github.com/go-openapi/swag@v0.21.1"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gobinary"
+        }
+      ]
+    },
+    {
+      "name": "github.com/gogo/protobuf",
+      "SPDXID": "SPDXRef-Package-7d9395c4f51d64c8",
+      "versionInfo": "v1.3.2",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/zookeeper-operator",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/gogo/protobuf@v1.3.2"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:cd62463e95010a0df9d99d3e33c5a7018abf463fa9007f89e4ec75a8194b88bc"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:4c4fee5cb156cb6e84a25b1e8aa1c98eda14cd520802b06f3abd0828d503ba9e"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: github.com/gogo/protobuf@v1.3.2"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gobinary"
+        }
+      ]
+    },
+    {
+      "name": "github.com/golang/groupcache",
+      "SPDXID": "SPDXRef-Package-30a4ad392cec07af",
+      "versionInfo": "v0.0.0-20210331224755-41bb18bfe9da",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/zookeeper-operator",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/golang/groupcache@v0.0.0-20210331224755-41bb18bfe9da"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:cd62463e95010a0df9d99d3e33c5a7018abf463fa9007f89e4ec75a8194b88bc"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:4c4fee5cb156cb6e84a25b1e8aa1c98eda14cd520802b06f3abd0828d503ba9e"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: github.com/golang/groupcache@v0.0.0-20210331224755-41bb18bfe9da"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gobinary"
+        }
+      ]
+    },
+    {
+      "name": "github.com/golang/protobuf",
+      "SPDXID": "SPDXRef-Package-5a3c6f906baf3b21",
+      "versionInfo": "v1.5.2",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/zookeeper-operator",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/golang/protobuf@v1.5.2"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:cd62463e95010a0df9d99d3e33c5a7018abf463fa9007f89e4ec75a8194b88bc"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:4c4fee5cb156cb6e84a25b1e8aa1c98eda14cd520802b06f3abd0828d503ba9e"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: github.com/golang/protobuf@v1.5.2"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gobinary"
+        }
+      ]
+    },
+    {
+      "name": "github.com/google/gnostic",
+      "SPDXID": "SPDXRef-Package-649533d718e3f7ec",
+      "versionInfo": "v0.6.9",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/zookeeper-operator",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/google/gnostic@v0.6.9"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:cd62463e95010a0df9d99d3e33c5a7018abf463fa9007f89e4ec75a8194b88bc"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:4c4fee5cb156cb6e84a25b1e8aa1c98eda14cd520802b06f3abd0828d503ba9e"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: github.com/google/gnostic@v0.6.9"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gobinary"
+        }
+      ]
+    },
+    {
+      "name": "github.com/google/go-cmp",
+      "SPDXID": "SPDXRef-Package-cb58a3399665a024",
+      "versionInfo": "v0.5.8",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/zookeeper-operator",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/google/go-cmp@v0.5.8"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:cd62463e95010a0df9d99d3e33c5a7018abf463fa9007f89e4ec75a8194b88bc"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:4c4fee5cb156cb6e84a25b1e8aa1c98eda14cd520802b06f3abd0828d503ba9e"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: github.com/google/go-cmp@v0.5.8"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gobinary"
+        }
+      ]
+    },
+    {
+      "name": "github.com/google/gofuzz",
+      "SPDXID": "SPDXRef-Package-d6227aa9c79a138f",
+      "versionInfo": "v1.2.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/zookeeper-operator",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/google/gofuzz@v1.2.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:cd62463e95010a0df9d99d3e33c5a7018abf463fa9007f89e4ec75a8194b88bc"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:4c4fee5cb156cb6e84a25b1e8aa1c98eda14cd520802b06f3abd0828d503ba9e"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: github.com/google/gofuzz@v1.2.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gobinary"
+        }
+      ]
+    },
+    {
+      "name": "github.com/google/uuid",
+      "SPDXID": "SPDXRef-Package-ba3382016f725819",
+      "versionInfo": "v1.3.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/zookeeper-operator",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/google/uuid@v1.3.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:cd62463e95010a0df9d99d3e33c5a7018abf463fa9007f89e4ec75a8194b88bc"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:4c4fee5cb156cb6e84a25b1e8aa1c98eda14cd520802b06f3abd0828d503ba9e"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: github.com/google/uuid@v1.3.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gobinary"
+        }
+      ]
+    },
+    {
+      "name": "github.com/imdario/mergo",
+      "SPDXID": "SPDXRef-Package-cc6e93476f338a64",
+      "versionInfo": "v0.3.13",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/zookeeper-operator",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/imdario/mergo@v0.3.13"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:cd62463e95010a0df9d99d3e33c5a7018abf463fa9007f89e4ec75a8194b88bc"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:4c4fee5cb156cb6e84a25b1e8aa1c98eda14cd520802b06f3abd0828d503ba9e"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: github.com/imdario/mergo@v0.3.13"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gobinary"
+        }
+      ]
+    },
+    {
+      "name": "github.com/josharian/intern",
+      "SPDXID": "SPDXRef-Package-5fc4f1395a073cb4",
+      "versionInfo": "v1.0.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/zookeeper-operator",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/josharian/intern@v1.0.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:cd62463e95010a0df9d99d3e33c5a7018abf463fa9007f89e4ec75a8194b88bc"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:4c4fee5cb156cb6e84a25b1e8aa1c98eda14cd520802b06f3abd0828d503ba9e"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: github.com/josharian/intern@v1.0.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gobinary"
+        }
+      ]
+    },
+    {
+      "name": "github.com/json-iterator/go",
+      "SPDXID": "SPDXRef-Package-6e756a744f3fca5",
+      "versionInfo": "v1.1.12",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/zookeeper-operator",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/json-iterator/go@v1.1.12"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:cd62463e95010a0df9d99d3e33c5a7018abf463fa9007f89e4ec75a8194b88bc"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:4c4fee5cb156cb6e84a25b1e8aa1c98eda14cd520802b06f3abd0828d503ba9e"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: github.com/json-iterator/go@v1.1.12"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gobinary"
+        }
+      ]
+    },
+    {
+      "name": "github.com/mailru/easyjson",
+      "SPDXID": "SPDXRef-Package-e737d750b1ae545a",
+      "versionInfo": "v0.7.7",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/zookeeper-operator",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/mailru/easyjson@v0.7.7"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:cd62463e95010a0df9d99d3e33c5a7018abf463fa9007f89e4ec75a8194b88bc"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:4c4fee5cb156cb6e84a25b1e8aa1c98eda14cd520802b06f3abd0828d503ba9e"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: github.com/mailru/easyjson@v0.7.7"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gobinary"
+        }
+      ]
+    },
+    {
+      "name": "github.com/matttproud/golang_protobuf_extensions",
+      "SPDXID": "SPDXRef-Package-62ab1aac41fd65e6",
+      "versionInfo": "v1.0.2-0.20181231171920-c182affec369",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/zookeeper-operator",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/matttproud/golang_protobuf_extensions@v1.0.2-0.20181231171920-c182affec369"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:cd62463e95010a0df9d99d3e33c5a7018abf463fa9007f89e4ec75a8194b88bc"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:4c4fee5cb156cb6e84a25b1e8aa1c98eda14cd520802b06f3abd0828d503ba9e"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: github.com/matttproud/golang_protobuf_extensions@v1.0.2-0.20181231171920-c182affec369"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gobinary"
+        }
+      ]
+    },
+    {
+      "name": "github.com/modern-go/concurrent",
+      "SPDXID": "SPDXRef-Package-f86be22775b043eb",
+      "versionInfo": "v0.0.0-20180306012644-bacd9c7ef1dd",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/zookeeper-operator",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/modern-go/concurrent@v0.0.0-20180306012644-bacd9c7ef1dd"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:cd62463e95010a0df9d99d3e33c5a7018abf463fa9007f89e4ec75a8194b88bc"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:4c4fee5cb156cb6e84a25b1e8aa1c98eda14cd520802b06f3abd0828d503ba9e"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: github.com/modern-go/concurrent@v0.0.0-20180306012644-bacd9c7ef1dd"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gobinary"
+        }
+      ]
+    },
+    {
+      "name": "github.com/modern-go/reflect2",
+      "SPDXID": "SPDXRef-Package-ed5583f317541623",
+      "versionInfo": "v1.0.2",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/zookeeper-operator",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/modern-go/reflect2@v1.0.2"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:cd62463e95010a0df9d99d3e33c5a7018abf463fa9007f89e4ec75a8194b88bc"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:4c4fee5cb156cb6e84a25b1e8aa1c98eda14cd520802b06f3abd0828d503ba9e"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: github.com/modern-go/reflect2@v1.0.2"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gobinary"
+        }
+      ]
+    },
+    {
+      "name": "github.com/munnerz/goautoneg",
+      "SPDXID": "SPDXRef-Package-5976545cf827602e",
+      "versionInfo": "v0.0.0-20191010083416-a7dc8b61c822",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/zookeeper-operator",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/munnerz/goautoneg@v0.0.0-20191010083416-a7dc8b61c822"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:cd62463e95010a0df9d99d3e33c5a7018abf463fa9007f89e4ec75a8194b88bc"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:4c4fee5cb156cb6e84a25b1e8aa1c98eda14cd520802b06f3abd0828d503ba9e"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: github.com/munnerz/goautoneg@v0.0.0-20191010083416-a7dc8b61c822"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gobinary"
+        }
+      ]
+    },
+    {
+      "name": "github.com/operator-framework/operator-lib",
+      "SPDXID": "SPDXRef-Package-56822fc536860da3",
+      "versionInfo": "v0.11.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/zookeeper-operator",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/operator-framework/operator-lib@v0.11.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:cd62463e95010a0df9d99d3e33c5a7018abf463fa9007f89e4ec75a8194b88bc"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:4c4fee5cb156cb6e84a25b1e8aa1c98eda14cd520802b06f3abd0828d503ba9e"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: github.com/operator-framework/operator-lib@v0.11.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gobinary"
+        }
+      ]
+    },
+    {
+      "name": "github.com/pkg/errors",
+      "SPDXID": "SPDXRef-Package-2f8d9a77f39bbe1b",
+      "versionInfo": "v0.9.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/zookeeper-operator",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/pkg/errors@v0.9.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:cd62463e95010a0df9d99d3e33c5a7018abf463fa9007f89e4ec75a8194b88bc"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:4c4fee5cb156cb6e84a25b1e8aa1c98eda14cd520802b06f3abd0828d503ba9e"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: github.com/pkg/errors@v0.9.1"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gobinary"
+        }
+      ]
+    },
+    {
+      "name": "github.com/pravega/zookeeper-operator",
+      "SPDXID": "SPDXRef-Package-d71261f6acfa28d1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/zookeeper-operator",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/pravega/zookeeper-operator"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:cd62463e95010a0df9d99d3e33c5a7018abf463fa9007f89e4ec75a8194b88bc"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:4c4fee5cb156cb6e84a25b1e8aa1c98eda14cd520802b06f3abd0828d503ba9e"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: github.com/pravega/zookeeper-operator"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gobinary"
+        }
+      ]
+    },
+    {
+      "name": "github.com/prometheus/client_golang",
+      "SPDXID": "SPDXRef-Package-a9115b812c5b46db",
+      "versionInfo": "v1.12.2",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/zookeeper-operator",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/prometheus/client_golang@v1.12.2"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:cd62463e95010a0df9d99d3e33c5a7018abf463fa9007f89e4ec75a8194b88bc"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:4c4fee5cb156cb6e84a25b1e8aa1c98eda14cd520802b06f3abd0828d503ba9e"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: github.com/prometheus/client_golang@v1.12.2"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gobinary"
+        }
+      ]
+    },
+    {
+      "name": "github.com/prometheus/client_model",
+      "SPDXID": "SPDXRef-Package-95f9384d4549cfd2",
+      "versionInfo": "v0.2.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/zookeeper-operator",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/prometheus/client_model@v0.2.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:cd62463e95010a0df9d99d3e33c5a7018abf463fa9007f89e4ec75a8194b88bc"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:4c4fee5cb156cb6e84a25b1e8aa1c98eda14cd520802b06f3abd0828d503ba9e"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: github.com/prometheus/client_model@v0.2.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gobinary"
+        }
+      ]
+    },
+    {
+      "name": "github.com/prometheus/common",
+      "SPDXID": "SPDXRef-Package-b00b841bc7639912",
+      "versionInfo": "v0.34.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/zookeeper-operator",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/prometheus/common@v0.34.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:cd62463e95010a0df9d99d3e33c5a7018abf463fa9007f89e4ec75a8194b88bc"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:4c4fee5cb156cb6e84a25b1e8aa1c98eda14cd520802b06f3abd0828d503ba9e"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: github.com/prometheus/common@v0.34.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gobinary"
+        }
+      ]
+    },
+    {
+      "name": "github.com/prometheus/procfs",
+      "SPDXID": "SPDXRef-Package-bff85ac2cb929e1a",
+      "versionInfo": "v0.7.3",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/zookeeper-operator",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/prometheus/procfs@v0.7.3"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:cd62463e95010a0df9d99d3e33c5a7018abf463fa9007f89e4ec75a8194b88bc"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:4c4fee5cb156cb6e84a25b1e8aa1c98eda14cd520802b06f3abd0828d503ba9e"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: github.com/prometheus/procfs@v0.7.3"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gobinary"
+        }
+      ]
+    },
+    {
+      "name": "github.com/samuel/go-zookeeper",
+      "SPDXID": "SPDXRef-Package-d69d0aec7e2a843a",
+      "versionInfo": "v0.0.0-20201211165307-7117e9ea2414",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/zookeeper-operator",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/samuel/go-zookeeper@v0.0.0-20201211165307-7117e9ea2414"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:cd62463e95010a0df9d99d3e33c5a7018abf463fa9007f89e4ec75a8194b88bc"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:4c4fee5cb156cb6e84a25b1e8aa1c98eda14cd520802b06f3abd0828d503ba9e"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: github.com/samuel/go-zookeeper@v0.0.0-20201211165307-7117e9ea2414"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gobinary"
+        }
+      ]
+    },
+    {
+      "name": "github.com/sirupsen/logrus",
+      "SPDXID": "SPDXRef-Package-9de05da9e67fb543",
+      "versionInfo": "v1.8.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/zookeeper-operator",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/sirupsen/logrus@v1.8.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:cd62463e95010a0df9d99d3e33c5a7018abf463fa9007f89e4ec75a8194b88bc"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:4c4fee5cb156cb6e84a25b1e8aa1c98eda14cd520802b06f3abd0828d503ba9e"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: github.com/sirupsen/logrus@v1.8.1"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gobinary"
+        }
+      ]
+    },
+    {
+      "name": "github.com/spf13/pflag",
+      "SPDXID": "SPDXRef-Package-d24dc7aa2047da47",
+      "versionInfo": "v1.0.5",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/zookeeper-operator",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/spf13/pflag@v1.0.5"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:cd62463e95010a0df9d99d3e33c5a7018abf463fa9007f89e4ec75a8194b88bc"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:4c4fee5cb156cb6e84a25b1e8aa1c98eda14cd520802b06f3abd0828d503ba9e"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: github.com/spf13/pflag@v1.0.5"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gobinary"
+        }
+      ]
+    },
+    {
+      "name": "go.uber.org/atomic",
+      "SPDXID": "SPDXRef-Package-122052f274932939",
+      "versionInfo": "v1.9.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/zookeeper-operator",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/go.uber.org/atomic@v1.9.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:cd62463e95010a0df9d99d3e33c5a7018abf463fa9007f89e4ec75a8194b88bc"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:4c4fee5cb156cb6e84a25b1e8aa1c98eda14cd520802b06f3abd0828d503ba9e"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: go.uber.org/atomic@v1.9.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gobinary"
+        }
+      ]
+    },
+    {
+      "name": "go.uber.org/multierr",
+      "SPDXID": "SPDXRef-Package-cc0d7184e3e91c56",
+      "versionInfo": "v1.8.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/zookeeper-operator",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/go.uber.org/multierr@v1.8.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:cd62463e95010a0df9d99d3e33c5a7018abf463fa9007f89e4ec75a8194b88bc"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:4c4fee5cb156cb6e84a25b1e8aa1c98eda14cd520802b06f3abd0828d503ba9e"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: go.uber.org/multierr@v1.8.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gobinary"
+        }
+      ]
+    },
+    {
+      "name": "go.uber.org/zap",
+      "SPDXID": "SPDXRef-Package-c848a9a6b9ef5317",
+      "versionInfo": "v1.21.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/zookeeper-operator",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/go.uber.org/zap@v1.21.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:cd62463e95010a0df9d99d3e33c5a7018abf463fa9007f89e4ec75a8194b88bc"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:4c4fee5cb156cb6e84a25b1e8aa1c98eda14cd520802b06f3abd0828d503ba9e"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: go.uber.org/zap@v1.21.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gobinary"
+        }
+      ]
+    },
+    {
+      "name": "golang.org/x/net",
+      "SPDXID": "SPDXRef-Package-9a4c33aca6d9daa4",
+      "versionInfo": "v0.7.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/zookeeper-operator",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/golang.org/x/net@v0.7.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:cd62463e95010a0df9d99d3e33c5a7018abf463fa9007f89e4ec75a8194b88bc"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:4c4fee5cb156cb6e84a25b1e8aa1c98eda14cd520802b06f3abd0828d503ba9e"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: golang.org/x/net@v0.7.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gobinary"
+        }
+      ]
+    },
+    {
+      "name": "golang.org/x/oauth2",
+      "SPDXID": "SPDXRef-Package-d89043efe6c03b8f",
+      "versionInfo": "v0.0.0-20220524215830-622c5d57e401",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/zookeeper-operator",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/golang.org/x/oauth2@v0.0.0-20220524215830-622c5d57e401"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:cd62463e95010a0df9d99d3e33c5a7018abf463fa9007f89e4ec75a8194b88bc"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:4c4fee5cb156cb6e84a25b1e8aa1c98eda14cd520802b06f3abd0828d503ba9e"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: golang.org/x/oauth2@v0.0.0-20220524215830-622c5d57e401"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gobinary"
+        }
+      ]
+    },
+    {
+      "name": "golang.org/x/sys",
+      "SPDXID": "SPDXRef-Package-73ced50e89d346a",
+      "versionInfo": "v0.5.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/zookeeper-operator",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/golang.org/x/sys@v0.5.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:cd62463e95010a0df9d99d3e33c5a7018abf463fa9007f89e4ec75a8194b88bc"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:4c4fee5cb156cb6e84a25b1e8aa1c98eda14cd520802b06f3abd0828d503ba9e"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: golang.org/x/sys@v0.5.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gobinary"
+        }
+      ]
+    },
+    {
+      "name": "golang.org/x/term",
+      "SPDXID": "SPDXRef-Package-6aa9d8f3a1cd8c19",
+      "versionInfo": "v0.5.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/zookeeper-operator",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/golang.org/x/term@v0.5.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:cd62463e95010a0df9d99d3e33c5a7018abf463fa9007f89e4ec75a8194b88bc"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:4c4fee5cb156cb6e84a25b1e8aa1c98eda14cd520802b06f3abd0828d503ba9e"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: golang.org/x/term@v0.5.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gobinary"
+        }
+      ]
+    },
+    {
+      "name": "golang.org/x/text",
+      "SPDXID": "SPDXRef-Package-8ecbc7c36e1d644",
+      "versionInfo": "v0.7.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/zookeeper-operator",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/golang.org/x/text@v0.7.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:cd62463e95010a0df9d99d3e33c5a7018abf463fa9007f89e4ec75a8194b88bc"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:4c4fee5cb156cb6e84a25b1e8aa1c98eda14cd520802b06f3abd0828d503ba9e"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: golang.org/x/text@v0.7.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gobinary"
+        }
+      ]
+    },
+    {
+      "name": "golang.org/x/time",
+      "SPDXID": "SPDXRef-Package-76f2e06bfb836ef4",
+      "versionInfo": "v0.0.0-20220411224347-583f2d630306",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/zookeeper-operator",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/golang.org/x/time@v0.0.0-20220411224347-583f2d630306"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:cd62463e95010a0df9d99d3e33c5a7018abf463fa9007f89e4ec75a8194b88bc"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:4c4fee5cb156cb6e84a25b1e8aa1c98eda14cd520802b06f3abd0828d503ba9e"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: golang.org/x/time@v0.0.0-20220411224347-583f2d630306"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gobinary"
+        }
+      ]
+    },
+    {
+      "name": "gomodules.xyz/jsonpatch/v2",
+      "SPDXID": "SPDXRef-Package-7b2d11140aad318c",
+      "versionInfo": "v2.2.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/zookeeper-operator",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/gomodules.xyz/jsonpatch/v2@v2.2.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:cd62463e95010a0df9d99d3e33c5a7018abf463fa9007f89e4ec75a8194b88bc"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:4c4fee5cb156cb6e84a25b1e8aa1c98eda14cd520802b06f3abd0828d503ba9e"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: gomodules.xyz/jsonpatch/v2@v2.2.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gobinary"
+        }
+      ]
+    },
+    {
+      "name": "google.golang.org/protobuf",
+      "SPDXID": "SPDXRef-Package-4a54d6fe8be4e0ae",
+      "versionInfo": "v1.28.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/zookeeper-operator",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/google.golang.org/protobuf@v1.28.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:cd62463e95010a0df9d99d3e33c5a7018abf463fa9007f89e4ec75a8194b88bc"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:4c4fee5cb156cb6e84a25b1e8aa1c98eda14cd520802b06f3abd0828d503ba9e"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: google.golang.org/protobuf@v1.28.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gobinary"
+        }
+      ]
+    },
+    {
+      "name": "gopkg.in/inf.v0",
+      "SPDXID": "SPDXRef-Package-54591fd8777720a5",
+      "versionInfo": "v0.9.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/zookeeper-operator",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/gopkg.in/inf.v0@v0.9.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:cd62463e95010a0df9d99d3e33c5a7018abf463fa9007f89e4ec75a8194b88bc"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:4c4fee5cb156cb6e84a25b1e8aa1c98eda14cd520802b06f3abd0828d503ba9e"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: gopkg.in/inf.v0@v0.9.1"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gobinary"
+        }
+      ]
+    },
+    {
+      "name": "gopkg.in/yaml.v2",
+      "SPDXID": "SPDXRef-Package-b5fed8fb7ba21d6e",
+      "versionInfo": "v2.4.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/zookeeper-operator",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/gopkg.in/yaml.v2@v2.4.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:cd62463e95010a0df9d99d3e33c5a7018abf463fa9007f89e4ec75a8194b88bc"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:4c4fee5cb156cb6e84a25b1e8aa1c98eda14cd520802b06f3abd0828d503ba9e"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: gopkg.in/yaml.v2@v2.4.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gobinary"
+        }
+      ]
+    },
+    {
+      "name": "gopkg.in/yaml.v3",
+      "SPDXID": "SPDXRef-Package-6926ca8bb7269062",
+      "versionInfo": "v3.0.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/zookeeper-operator",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/gopkg.in/yaml.v3@v3.0.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:cd62463e95010a0df9d99d3e33c5a7018abf463fa9007f89e4ec75a8194b88bc"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:4c4fee5cb156cb6e84a25b1e8aa1c98eda14cd520802b06f3abd0828d503ba9e"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: gopkg.in/yaml.v3@v3.0.1"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gobinary"
+        }
+      ]
+    },
+    {
+      "name": "k8s.io/api",
+      "SPDXID": "SPDXRef-Package-f1c37abd04d60696",
+      "versionInfo": "v0.24.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/zookeeper-operator",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/k8s.io/api@v0.24.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:cd62463e95010a0df9d99d3e33c5a7018abf463fa9007f89e4ec75a8194b88bc"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:4c4fee5cb156cb6e84a25b1e8aa1c98eda14cd520802b06f3abd0828d503ba9e"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: k8s.io/api@v0.24.1"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gobinary"
+        }
+      ]
+    },
+    {
+      "name": "k8s.io/apiextensions-apiserver",
+      "SPDXID": "SPDXRef-Package-759fc56aa56fc9a8",
+      "versionInfo": "v0.24.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/zookeeper-operator",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/k8s.io/apiextensions-apiserver@v0.24.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:cd62463e95010a0df9d99d3e33c5a7018abf463fa9007f89e4ec75a8194b88bc"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:4c4fee5cb156cb6e84a25b1e8aa1c98eda14cd520802b06f3abd0828d503ba9e"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: k8s.io/apiextensions-apiserver@v0.24.1"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gobinary"
+        }
+      ]
+    },
+    {
+      "name": "k8s.io/apimachinery",
+      "SPDXID": "SPDXRef-Package-3c511fa967b0227d",
+      "versionInfo": "v0.24.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/zookeeper-operator",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/k8s.io/apimachinery@v0.24.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:cd62463e95010a0df9d99d3e33c5a7018abf463fa9007f89e4ec75a8194b88bc"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:4c4fee5cb156cb6e84a25b1e8aa1c98eda14cd520802b06f3abd0828d503ba9e"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: k8s.io/apimachinery@v0.24.1"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gobinary"
+        }
+      ]
+    },
+    {
+      "name": "k8s.io/client-go",
+      "SPDXID": "SPDXRef-Package-168a343dc5e40448",
+      "versionInfo": "v0.24.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/zookeeper-operator",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/k8s.io/client-go@v0.24.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:cd62463e95010a0df9d99d3e33c5a7018abf463fa9007f89e4ec75a8194b88bc"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:4c4fee5cb156cb6e84a25b1e8aa1c98eda14cd520802b06f3abd0828d503ba9e"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: k8s.io/client-go@v0.24.1"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gobinary"
+        }
+      ]
+    },
+    {
+      "name": "k8s.io/component-base",
+      "SPDXID": "SPDXRef-Package-6589d74c25b1987a",
+      "versionInfo": "v0.24.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/zookeeper-operator",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/k8s.io/component-base@v0.24.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:cd62463e95010a0df9d99d3e33c5a7018abf463fa9007f89e4ec75a8194b88bc"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:4c4fee5cb156cb6e84a25b1e8aa1c98eda14cd520802b06f3abd0828d503ba9e"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: k8s.io/component-base@v0.24.1"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gobinary"
+        }
+      ]
+    },
+    {
+      "name": "k8s.io/klog/v2",
+      "SPDXID": "SPDXRef-Package-baf040df4eefcf9e",
+      "versionInfo": "v2.60.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/zookeeper-operator",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/k8s.io/klog/v2@v2.60.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:cd62463e95010a0df9d99d3e33c5a7018abf463fa9007f89e4ec75a8194b88bc"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:4c4fee5cb156cb6e84a25b1e8aa1c98eda14cd520802b06f3abd0828d503ba9e"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: k8s.io/klog/v2@v2.60.1"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gobinary"
+        }
+      ]
+    },
+    {
+      "name": "k8s.io/kube-openapi",
+      "SPDXID": "SPDXRef-Package-18219b0ce6e1dc57",
+      "versionInfo": "v0.0.0-20220413171646-5e7f5fdc6da6",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/zookeeper-operator",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/k8s.io/kube-openapi@v0.0.0-20220413171646-5e7f5fdc6da6"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:cd62463e95010a0df9d99d3e33c5a7018abf463fa9007f89e4ec75a8194b88bc"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:4c4fee5cb156cb6e84a25b1e8aa1c98eda14cd520802b06f3abd0828d503ba9e"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: k8s.io/kube-openapi@v0.0.0-20220413171646-5e7f5fdc6da6"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gobinary"
+        }
+      ]
+    },
+    {
+      "name": "k8s.io/utils",
+      "SPDXID": "SPDXRef-Package-5e08dc3615e9e31",
+      "versionInfo": "v0.0.0-20220210201930-3a6ce19ff2f9",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/zookeeper-operator",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/k8s.io/utils@v0.0.0-20220210201930-3a6ce19ff2f9"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:cd62463e95010a0df9d99d3e33c5a7018abf463fa9007f89e4ec75a8194b88bc"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:4c4fee5cb156cb6e84a25b1e8aa1c98eda14cd520802b06f3abd0828d503ba9e"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: k8s.io/utils@v0.0.0-20220210201930-3a6ce19ff2f9"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gobinary"
+        }
+      ]
+    },
+    {
+      "name": "netbase",
+      "SPDXID": "SPDXRef-Package-49c2aa65bb8aef92",
+      "versionInfo": "6.3",
+      "supplier": "Organization: Marco d'Itri \u003cmd@linux.it\u003e",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "built package from: netbase 6.3",
+      "licenseConcluded": "GPL-2.0-only",
+      "licenseDeclared": "GPL-2.0-only",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:deb/debian/netbase@6.3?arch=all\u0026distro=debian-11.6"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:6fbdf253bbc2490dcfede5bdb58ca0db63ee8aff565f6ea9f918f3bce9e2d5aa"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:fe5ca62666f04366c8e7f605aa82997d71320183e99962fa76b3209fdfbb8b58"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: netbase@6.3"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: debian"
+        }
+      ]
+    },
+    {
+      "name": "sigs.k8s.io/controller-runtime",
+      "SPDXID": "SPDXRef-Package-b456b0ac3436e23e",
+      "versionInfo": "v0.12.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/zookeeper-operator",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/sigs.k8s.io/controller-runtime@v0.12.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:cd62463e95010a0df9d99d3e33c5a7018abf463fa9007f89e4ec75a8194b88bc"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:4c4fee5cb156cb6e84a25b1e8aa1c98eda14cd520802b06f3abd0828d503ba9e"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: sigs.k8s.io/controller-runtime@v0.12.1"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gobinary"
+        }
+      ]
+    },
+    {
+      "name": "sigs.k8s.io/json",
+      "SPDXID": "SPDXRef-Package-c680ae107d6e66b5",
+      "versionInfo": "v0.0.0-20220525155127-227cbc7cc124",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/zookeeper-operator",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/sigs.k8s.io/json@v0.0.0-20220525155127-227cbc7cc124"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:cd62463e95010a0df9d99d3e33c5a7018abf463fa9007f89e4ec75a8194b88bc"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:4c4fee5cb156cb6e84a25b1e8aa1c98eda14cd520802b06f3abd0828d503ba9e"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: sigs.k8s.io/json@v0.0.0-20220525155127-227cbc7cc124"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gobinary"
+        }
+      ]
+    },
+    {
+      "name": "sigs.k8s.io/structured-merge-diff/v4",
+      "SPDXID": "SPDXRef-Package-e2a5a54323d5ac90",
+      "versionInfo": "v4.2.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/zookeeper-operator",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/sigs.k8s.io/structured-merge-diff/v4@v4.2.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:cd62463e95010a0df9d99d3e33c5a7018abf463fa9007f89e4ec75a8194b88bc"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:4c4fee5cb156cb6e84a25b1e8aa1c98eda14cd520802b06f3abd0828d503ba9e"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: sigs.k8s.io/structured-merge-diff/v4@v4.2.1"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gobinary"
+        }
+      ]
+    },
+    {
+      "name": "sigs.k8s.io/yaml",
+      "SPDXID": "SPDXRef-Package-e0e12797578da866",
+      "versionInfo": "v1.3.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/zookeeper-operator",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/sigs.k8s.io/yaml@v1.3.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:cd62463e95010a0df9d99d3e33c5a7018abf463fa9007f89e4ec75a8194b88bc"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:4c4fee5cb156cb6e84a25b1e8aa1c98eda14cd520802b06f3abd0828d503ba9e"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: sigs.k8s.io/yaml@v1.3.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gobinary"
+        }
+      ]
+    },
+    {
+      "name": "stdlib",
+      "SPDXID": "SPDXRef-Package-de836de40e000759",
+      "versionInfo": "v1.19.7",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/zookeeper-operator",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/stdlib@v1.19.7"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:cd62463e95010a0df9d99d3e33c5a7018abf463fa9007f89e4ec75a8194b88bc"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:4c4fee5cb156cb6e84a25b1e8aa1c98eda14cd520802b06f3abd0828d503ba9e"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: stdlib@v1.19.7"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: gobinary"
+        }
+      ]
+    },
+    {
+      "name": "tzdata",
+      "SPDXID": "SPDXRef-Package-ea1fbd58fce2fe25",
+      "versionInfo": "2021a-1+deb11u9",
+      "supplier": "Organization: GNU Libc Maintainers \u003cdebian-glibc@lists.debian.org\u003e",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "built package from: tzdata 2021a-1+deb11u9",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:deb/debian/tzdata@2021a-1%2Bdeb11u9?arch=all\u0026distro=debian-11.6"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:399826b51fcf6c959b7a7e86b89ac1ee6685d64da54e5223e1d182c491a1bbd6"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:778531a089eab52855ac322765befc1a3c2b5bf7e8a4a933672bfbbc91e7e3f7"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: tzdata@2021a-1+deb11u9"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: debian"
+        }
+      ]
+    },
+    {
+      "name": "debian",
+      "SPDXID": "SPDXRef-OperatingSystem-1da07c9de78ad827",
+      "versionInfo": "11.6",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "primaryPackagePurpose": "OPERATING-SYSTEM",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "Class: os-pkgs"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T17:43:37Z",
+          "annotationType": "OTHER",
+          "comment": "Type: debian"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-Application-5ab75f8d8712bcf5",
+      "relatedSpdxElement": "SPDXRef-Package-122052f274932939",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-5ab75f8d8712bcf5",
+      "relatedSpdxElement": "SPDXRef-Package-168a343dc5e40448",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-5ab75f8d8712bcf5",
+      "relatedSpdxElement": "SPDXRef-Package-18219b0ce6e1dc57",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-5ab75f8d8712bcf5",
+      "relatedSpdxElement": "SPDXRef-Package-1a504e0e56964c7e",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-5ab75f8d8712bcf5",
+      "relatedSpdxElement": "SPDXRef-Package-1ca2c27b6cae93c4",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-5ab75f8d8712bcf5",
+      "relatedSpdxElement": "SPDXRef-Package-203501632021e8b5",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-5ab75f8d8712bcf5",
+      "relatedSpdxElement": "SPDXRef-Package-294c0a34ec9387c7",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-5ab75f8d8712bcf5",
+      "relatedSpdxElement": "SPDXRef-Package-2f8d9a77f39bbe1b",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-5ab75f8d8712bcf5",
+      "relatedSpdxElement": "SPDXRef-Package-30a4ad392cec07af",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-5ab75f8d8712bcf5",
+      "relatedSpdxElement": "SPDXRef-Package-30b2c41f1faa31a2",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-5ab75f8d8712bcf5",
+      "relatedSpdxElement": "SPDXRef-Package-35778f664d9295bf",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-5ab75f8d8712bcf5",
+      "relatedSpdxElement": "SPDXRef-Package-3c511fa967b0227d",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-5ab75f8d8712bcf5",
+      "relatedSpdxElement": "SPDXRef-Package-4a54d6fe8be4e0ae",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-5ab75f8d8712bcf5",
+      "relatedSpdxElement": "SPDXRef-Package-54591fd8777720a5",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-5ab75f8d8712bcf5",
+      "relatedSpdxElement": "SPDXRef-Package-56822fc536860da3",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-5ab75f8d8712bcf5",
+      "relatedSpdxElement": "SPDXRef-Package-5976545cf827602e",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-5ab75f8d8712bcf5",
+      "relatedSpdxElement": "SPDXRef-Package-5a3c6f906baf3b21",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-5ab75f8d8712bcf5",
+      "relatedSpdxElement": "SPDXRef-Package-5c6cdda673d1f79b",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-5ab75f8d8712bcf5",
+      "relatedSpdxElement": "SPDXRef-Package-5e08dc3615e9e31",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-5ab75f8d8712bcf5",
+      "relatedSpdxElement": "SPDXRef-Package-5fc4f1395a073cb4",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-5ab75f8d8712bcf5",
+      "relatedSpdxElement": "SPDXRef-Package-62ab1aac41fd65e6",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-5ab75f8d8712bcf5",
+      "relatedSpdxElement": "SPDXRef-Package-649533d718e3f7ec",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-5ab75f8d8712bcf5",
+      "relatedSpdxElement": "SPDXRef-Package-6589d74c25b1987a",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-5ab75f8d8712bcf5",
+      "relatedSpdxElement": "SPDXRef-Package-6926ca8bb7269062",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-5ab75f8d8712bcf5",
+      "relatedSpdxElement": "SPDXRef-Package-6aa9d8f3a1cd8c19",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-5ab75f8d8712bcf5",
+      "relatedSpdxElement": "SPDXRef-Package-6b2333a8951c4b67",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-5ab75f8d8712bcf5",
+      "relatedSpdxElement": "SPDXRef-Package-6e756a744f3fca5",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-5ab75f8d8712bcf5",
+      "relatedSpdxElement": "SPDXRef-Package-73ced50e89d346a",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-5ab75f8d8712bcf5",
+      "relatedSpdxElement": "SPDXRef-Package-759fc56aa56fc9a8",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-5ab75f8d8712bcf5",
+      "relatedSpdxElement": "SPDXRef-Package-76f2e06bfb836ef4",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-5ab75f8d8712bcf5",
+      "relatedSpdxElement": "SPDXRef-Package-7b2d11140aad318c",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-5ab75f8d8712bcf5",
+      "relatedSpdxElement": "SPDXRef-Package-7d9395c4f51d64c8",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-5ab75f8d8712bcf5",
+      "relatedSpdxElement": "SPDXRef-Package-8ecbc7c36e1d644",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-5ab75f8d8712bcf5",
+      "relatedSpdxElement": "SPDXRef-Package-95f9384d4549cfd2",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-5ab75f8d8712bcf5",
+      "relatedSpdxElement": "SPDXRef-Package-9a4c33aca6d9daa4",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-5ab75f8d8712bcf5",
+      "relatedSpdxElement": "SPDXRef-Package-9de05da9e67fb543",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-5ab75f8d8712bcf5",
+      "relatedSpdxElement": "SPDXRef-Package-a068b541d6ed126d",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-5ab75f8d8712bcf5",
+      "relatedSpdxElement": "SPDXRef-Package-a9115b812c5b46db",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-5ab75f8d8712bcf5",
+      "relatedSpdxElement": "SPDXRef-Package-aa9ae93599dfe652",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-5ab75f8d8712bcf5",
+      "relatedSpdxElement": "SPDXRef-Package-b00b841bc7639912",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-5ab75f8d8712bcf5",
+      "relatedSpdxElement": "SPDXRef-Package-b456b0ac3436e23e",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-5ab75f8d8712bcf5",
+      "relatedSpdxElement": "SPDXRef-Package-b5fed8fb7ba21d6e",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-5ab75f8d8712bcf5",
+      "relatedSpdxElement": "SPDXRef-Package-ba3382016f725819",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-5ab75f8d8712bcf5",
+      "relatedSpdxElement": "SPDXRef-Package-baf040df4eefcf9e",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-5ab75f8d8712bcf5",
+      "relatedSpdxElement": "SPDXRef-Package-bff85ac2cb929e1a",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-5ab75f8d8712bcf5",
+      "relatedSpdxElement": "SPDXRef-Package-c680ae107d6e66b5",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-5ab75f8d8712bcf5",
+      "relatedSpdxElement": "SPDXRef-Package-c848a9a6b9ef5317",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-5ab75f8d8712bcf5",
+      "relatedSpdxElement": "SPDXRef-Package-cb58a3399665a024",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-5ab75f8d8712bcf5",
+      "relatedSpdxElement": "SPDXRef-Package-cc0d7184e3e91c56",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-5ab75f8d8712bcf5",
+      "relatedSpdxElement": "SPDXRef-Package-cc6e93476f338a64",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-5ab75f8d8712bcf5",
+      "relatedSpdxElement": "SPDXRef-Package-d24dc7aa2047da47",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-5ab75f8d8712bcf5",
+      "relatedSpdxElement": "SPDXRef-Package-d6227aa9c79a138f",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-5ab75f8d8712bcf5",
+      "relatedSpdxElement": "SPDXRef-Package-d69d0aec7e2a843a",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-5ab75f8d8712bcf5",
+      "relatedSpdxElement": "SPDXRef-Package-d71261f6acfa28d1",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-5ab75f8d8712bcf5",
+      "relatedSpdxElement": "SPDXRef-Package-d89043efe6c03b8f",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-5ab75f8d8712bcf5",
+      "relatedSpdxElement": "SPDXRef-Package-de836de40e000759",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-5ab75f8d8712bcf5",
+      "relatedSpdxElement": "SPDXRef-Package-e0e12797578da866",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-5ab75f8d8712bcf5",
+      "relatedSpdxElement": "SPDXRef-Package-e20dc65d6907ab39",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-5ab75f8d8712bcf5",
+      "relatedSpdxElement": "SPDXRef-Package-e2a5a54323d5ac90",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-5ab75f8d8712bcf5",
+      "relatedSpdxElement": "SPDXRef-Package-e737d750b1ae545a",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-5ab75f8d8712bcf5",
+      "relatedSpdxElement": "SPDXRef-Package-ed5583f317541623",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-5ab75f8d8712bcf5",
+      "relatedSpdxElement": "SPDXRef-Package-eedbbbd2d3a3dfcc",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-5ab75f8d8712bcf5",
+      "relatedSpdxElement": "SPDXRef-Package-f1c37abd04d60696",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-5ab75f8d8712bcf5",
+      "relatedSpdxElement": "SPDXRef-Package-f5cbd523dcf4b15f",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-5ab75f8d8712bcf5",
+      "relatedSpdxElement": "SPDXRef-Package-f86be22775b043eb",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-ContainerImage-aba32c148e9cd7b9",
+      "relatedSpdxElement": "SPDXRef-Application-5ab75f8d8712bcf5",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-ContainerImage-aba32c148e9cd7b9",
+      "relatedSpdxElement": "SPDXRef-OperatingSystem-1da07c9de78ad827",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-ContainerImage-aba32c148e9cd7b9",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-OperatingSystem-1da07c9de78ad827",
+      "relatedSpdxElement": "SPDXRef-Package-49c2aa65bb8aef92",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-OperatingSystem-1da07c9de78ad827",
+      "relatedSpdxElement": "SPDXRef-Package-bc0d1e9659909d75",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-OperatingSystem-1da07c9de78ad827",
+      "relatedSpdxElement": "SPDXRef-Package-ea1fbd58fce2fe25",
+      "relationshipType": "CONTAINS"
+    }
+  ]
+}

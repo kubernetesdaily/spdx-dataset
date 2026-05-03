@@ -1,0 +1,83 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "cockroachdb/cockroach-k8s-request-cert@sha256:d512bc05c482a1c164544e68299ff7616d4a26325ac9aa2c2ddce89bc241c792",
+  "documentNamespace": "http://trivy.dev/container_image/cockroachdb/cockroach-k8s-request-cert@sha256:d512bc05c482a1c164544e68299ff7616d4a26325ac9aa2c2ddce89bc241c792-c8ffdab6-140c-46b8-a2c7-f27ddff6a9f3",
+  "creationInfo": {
+    "creators": [
+      "Organization: aquasecurity",
+      "Tool: trivy-0.70.0"
+    ],
+    "created": "2026-05-03T16:58:40Z"
+  },
+  "packages": [
+    {
+      "name": "cockroachdb/cockroach-k8s-request-cert@sha256:d512bc05c482a1c164544e68299ff7616d4a26325ac9aa2c2ddce89bc241c792",
+      "SPDXID": "SPDXRef-ContainerImage-fb8d1996545fdb7b",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:oci/cockroach-k8s-request-cert@sha256:d512bc05c482a1c164544e68299ff7616d4a26325ac9aa2c2ddce89bc241c792?arch=amd64\u0026repository_url=index.docker.io%2Fcockroachdb%2Fcockroach-k8s-request-cert"
+        }
+      ],
+      "primaryPackagePurpose": "CONTAINER",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:58:40Z",
+          "annotationType": "OTHER",
+          "comment": "DiffID: sha256:8a788232037eaf17794408ff3df6b922a1aedf9ef8de36afdae3ed0b0381907b"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:58:40Z",
+          "annotationType": "OTHER",
+          "comment": "DiffID: sha256:cbd3255dc5ce9f0ae978b33cebad03be45ae935d3a6d119bc3524ad3fb6ff026"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:58:40Z",
+          "annotationType": "OTHER",
+          "comment": "ImageID: sha256:7dd9ab2a74d22fc1b4317d2ac638f3149c7fa992d27037674a605fa5849e0c87"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:58:40Z",
+          "annotationType": "OTHER",
+          "comment": "Reference: cockroachdb/cockroach-k8s-request-cert@sha256:d512bc05c482a1c164544e68299ff7616d4a26325ac9aa2c2ddce89bc241c792"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:58:40Z",
+          "annotationType": "OTHER",
+          "comment": "RepoDigest: cockroachdb/cockroach-k8s-request-cert@sha256:d512bc05c482a1c164544e68299ff7616d4a26325ac9aa2c2ddce89bc241c792"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:58:40Z",
+          "annotationType": "OTHER",
+          "comment": "SchemaVersion: 2"
+        },
+        {
+          "annotator": "Tool: trivy-0.70.0",
+          "annotationDate": "2026-05-03T16:58:40Z",
+          "annotationType": "OTHER",
+          "comment": "Size: 23756288"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-ContainerImage-fb8d1996545fdb7b",
+      "relationshipType": "DESCRIBES"
+    }
+  ]
+}

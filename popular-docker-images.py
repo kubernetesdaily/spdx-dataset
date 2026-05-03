@@ -3,134 +3,136 @@ import requests
 import time
 
 RESULTS_FILENAME = "most-popular-dockerhub-images.csv"
-FIELDNAMES = ["image_name", "pull_count"]
+FIELDNAMES = ["image_name", "pull_count", "star_count", "categories"]
 TARGET_COUNT = 1000
 
-def fetch_docker_images():
-    collected_images = []
-    page = 1
-    
-    print(f"Fetching {TARGET_COUNT} popular Docker images...")
-    
-    while len(collected_images) < TARGET_COUNT:
-        try:
-            # Use search API with sort by pull count to get most popular images
-            url = f"https://hub.docker.com/v2/search/repositories/?query=&page={page}&page_size=100&ordering=pull_count"
-            response = requests.get(url)
-            
-            if not response.ok:
-                print(f"Error {response.status_code}: {response.reason} on page {page}")
-                # If we hit rate limit or other error, wait before retrying
-                if response.status_code == 429:  # Too Many Requests
-                    print("Rate limited. Waiting 5 seconds...")
-                    time.sleep(5)
-                    continue
-                # For other errors, try the next page
-                page += 1
-                continue
-                
-            data = response.json()
-            
-            if "results" not in data or not data["results"]:
-                print(f"No more results available after collecting {len(collected_images)} images.")
-                break
-                
-            # Process results from this page
-            new_images = 0
-            for repo in data["results"]:
-                name = repo.get("repo_name", "")
-                namespace = repo.get("repo_owner", "")
-                
-                # Skip empty names
-                if not name:
-                    continue
-                
-                # Format full name based on namespace
-                if namespace and namespace != "library":
-                    full_name = f"{namespace}/{name}"
-                else:
-                    full_name = name
-                
-                pull_count = repo.get("pull_count", 0)
-                
-                # Skip if already in our list (avoid duplicates)
-                if any(img[0] == full_name for img in collected_images):
-                    continue
-                    
-                collected_images.append((full_name, pull_count))
-                new_images += 1
-                
-                # Break if we've reached our target
-                if len(collected_images) >= TARGET_COUNT:
-                    break
-            
-            print(f"Page {page}: Added {new_images} images. Total: {len(collected_images)}/{TARGET_COUNT}")
-            
-            # Move to next page
-            page += 1
-            
-            # Be nice to the API - small delay between requests
-            time.sleep(0.5)
-            
-        except Exception as e:
-            print(f"Error on page {page}: {str(e)}")
-            page += 1  # Try next page
-    
-    # If we still don't have enough, try additional searches with common terms
-    if len(collected_images) < TARGET_COUNT:
-        search_terms = ["ubuntu", "nginx", "python", "node", "java", "php", "ruby", "golang", 
-                        "database", "redis", "mongo", "mysql", "postgresql", "alpine"]
-        
-        for term in search_terms:
-            if len(collected_images) >= TARGET_COUNT:
-                break
-                
-            try:
-                response = requests.get(f"https://hub.docker.com/v2/search/repositories/?query={term}&page=1&page_size=100")
-                if response.ok:
-                    data = response.json()
-                    if "results" in data:
-                        for repo in data["results"]:
-                            if len(collected_images) >= TARGET_COUNT:
-                                break
-                                
-                            name = repo.get("repo_name", "")
-                            namespace = repo.get("repo_owner", "")
-                            
-                            if not name:
-                                continue
-                                
-                            if namespace and namespace != "library":
-                                full_name = f"{namespace}/{name}"
-                            else:
-                                full_name = name
-                                
-                            pull_count = repo.get("pull_count", 0)
-                            
-                            # Skip if already in our list
-                            if any(img[0] == full_name for img in collected_images):
-                                continue
-                                
-                            collected_images.append((full_name, pull_count))
-            except Exception:
-                continue
-    
-    # Fill any remaining slots with placeholder names if necessary
-    while len(collected_images) < TARGET_COUNT:
-        index = len(collected_images) + 1
-        collected_images.append((f"docker-image-{index}", 0))
-        
-    return collected_images[:TARGET_COUNT]
+# Product type filter as exposed on https://hub.docker.com/search (e.g. "image", "extension", "plugin").
+PRODUCT_TYPE = "image"
 
-# Main execution
+# Category slugs as exposed on https://hub.docker.com/search. Empty list = no category filter.
+# Valid slugs: api-management, content-management-system, data-science, databases-and-storage,
+# developer-tools, integration-and-delivery, internet-of-things, languages-and-frameworks,
+# machine-learning-and-ai, message-queues, monitoring-and-observability, networking,
+# operating-systems, security, web-analytics, web-servers
+CATEGORIES = [
+    "databases-and-storage",
+    "languages-and-frameworks",
+    "web-servers",
+    "operating-systems",
+    "developer-tools",
+    "message-queues",
+    "networking",
+    "security",
+    "monitoring-and-observability",
+    "machine-learning-and-ai",
+]
+
+SEARCH_URL = "https://hub.docker.com/api/search/v3/catalog/search"
+PAGE_SIZE = 100
+
+
+def _full_image_name(item):
+    """Return a docker-pullable name from a search result item."""
+    image_id = item.get("id") or item.get("slug") or item.get("name", "")
+    if image_id.startswith("library/"):
+        return image_id.split("/", 1)[1]
+    return image_id
+
+
+def _pull_count(item):
+    """Pull count is nested under rate_plans[0].repositories[0] as a human string (e.g. "1B+")."""
+    for plan in item.get("rate_plans", []) or []:
+        for repo in plan.get("repositories", []) or []:
+            if "pull_count" in repo:
+                return repo["pull_count"]
+    return ""
+
+
+def fetch_category(category, remaining):
+    """Fetch up to `remaining` results for a single category (or all if category is None)."""
+    collected = []
+    offset = 0
+    while len(collected) < remaining:
+        params = {
+            "type": PRODUCT_TYPE,
+            "from": offset,
+            "size": PAGE_SIZE,
+        }
+        if category:
+            params["categories"] = category
+
+        try:
+            response = requests.get(SEARCH_URL, params=params, timeout=30)
+        except requests.RequestException as exc:
+            print(f"Request error for category={category} offset={offset}: {exc}")
+            break
+
+        if response.status_code == 429:
+            print("Rate limited. Waiting 5 seconds...")
+            time.sleep(5)
+            continue
+        if not response.ok:
+            print(f"Error {response.status_code} for category={category} offset={offset}: {response.text[:200]}")
+            break
+
+        data = response.json()
+        results = data.get("results") or []
+        if not results:
+            break
+
+        for item in results:
+            name = _full_image_name(item)
+            if not name:
+                continue
+            collected.append({
+                "image_name": name,
+                "pull_count": _pull_count(item),
+                "star_count": item.get("star_count", 0),
+                "categories": ";".join(c.get("slug", "") for c in item.get("categories", []) or []),
+            })
+            if len(collected) >= remaining:
+                break
+
+        offset += PAGE_SIZE
+        if offset >= data.get("total", 0):
+            break
+        time.sleep(0.5)
+
+    return collected
+
+
+def fetch_docker_images():
+    print(f"Fetching up to {TARGET_COUNT} Docker Hub images (type={PRODUCT_TYPE}, "
+          f"categories={CATEGORIES or 'ALL'})...")
+
+    seen = set()
+    collected = []
+    categories = CATEGORIES if CATEGORIES else [None]
+
+    for category in categories:
+        if len(collected) >= TARGET_COUNT:
+            break
+        remaining = TARGET_COUNT - len(collected)
+        label = category or "ALL"
+        print(f"-> category={label} (need {remaining} more)")
+        for entry in fetch_category(category, remaining):
+            if entry["image_name"] in seen:
+                continue
+            seen.add(entry["image_name"])
+            collected.append(entry)
+            if len(collected) >= TARGET_COUNT:
+                break
+        print(f"   collected total: {len(collected)}/{TARGET_COUNT}")
+
+    return collected[:TARGET_COUNT]
+
+
 images = fetch_docker_images()
 
-# Write to CSV
 with open(RESULTS_FILENAME, "w", encoding="utf-8", newline="") as file:
-    writer = csv.writer(file)
-    writer.writerow(FIELDNAMES)
-    
-    for name, pull_count in images:
-        writer.writerow([name, pull_count])
+    writer = csv.DictWriter(file, fieldnames=FIELDNAMES)
+    writer.writeheader()
+    for entry in images:
+        writer.writerow(entry)
 
-print(f"Successfully saved {TARGET_COUNT} Docker images to '{RESULTS_FILENAME}'.")
+print(f"Successfully saved {len(images)} Docker images to '{RESULTS_FILENAME}'.")
